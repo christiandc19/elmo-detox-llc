@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/elmo-detox-llc/static/css/main.bab5c009.css",
-    "main.js": "/elmo-detox-llc/static/js/main.5f893c7d.js",
-    "static/media/hero-bg.jpg": "/elmo-detox-llc/static/media/hero-bg.e7bfd99cb090e8918698.jpg",
+    "main.css": "/elmo-detox-llc/static/css/main.f8de4f1b.css",
+    "main.js": "/elmo-detox-llc/static/js/main.f92bb517.js",
     "static/media/slider2.jpg": "/elmo-detox-llc/static/media/slider2.998d1b0ba1a4449d2aa8.jpg",
     "static/media/home1.png": "/elmo-detox-llc/static/media/home1.36fcbba2b792f74810e0.png",
     "static/media/footer-bg.jpg": "/elmo-detox-llc/static/media/footer-bg.36d62c855374b14b5cef.jpg",
@@ -10,6 +9,7 @@
     "static/media/home5.png": "/elmo-detox-llc/static/media/home5.332add0d7c324fdad002.png",
     "static/media/mental-health-submenu-bg.jpg": "/elmo-detox-llc/static/media/mental-health-submenu-bg.d7a879df78f005aec194.jpg",
     "static/media/home6.png": "/elmo-detox-llc/static/media/home6.38a0873a5e77ccf59571.png",
+    "static/media/hero-bg.jpg": "/elmo-detox-llc/static/media/hero-bg.45ede107adce33c7f973.jpg",
     "static/media/home4.png": "/elmo-detox-llc/static/media/home4.69294e498f7551a48e9a.png",
     "static/media/home3.png": "/elmo-detox-llc/static/media/home3.2d7202400a2e7d280011.png",
     "static/media/mh-submenu-bg.jpg": "/elmo-detox-llc/static/media/mh-submenu-bg.b41155bca1af6f12a7f7.jpg",
@@ -24,7 +24,6 @@
     "static/media/menu-bg-about.jpg": "/elmo-detox-llc/static/media/menu-bg-about.3ce1099a8cc09b6d0f3f.jpg",
     "static/media/treatment-1.jpg": "/elmo-detox-llc/static/media/treatment-1.9b93aa36872433733c19.jpg",
     "static/media/treatment-2.jpg": "/elmo-detox-llc/static/media/treatment-2.6125ee1c93e30c1b25e6.jpg",
-    "static/media/activity.jpg": "/elmo-detox-llc/static/media/activity.18cf9f92ce0257180036.jpg",
     "static/media/contact-form-bg.jpg": "/elmo-detox-llc/static/media/contact-form-bg.89154d3cfe6a2e417f53.jpg",
     "static/media/submenu-bg-team.jpg": "/elmo-detox-llc/static/media/submenu-bg-team.60bc3ede9e9bb99c5f4b.jpg",
     "static/media/menu-bg-insurance.jpg": "/elmo-detox-llc/static/media/menu-bg-insurance.feda551b4ff3f77df9da.jpg",
@@ -35,12 +34,12 @@
     "static/media/menu-bg-contact.jpg": "/elmo-detox-llc/static/media/menu-bg-contact.1716c90863e67762bd98.jpg",
     "static/media/staff.jpg": "/elmo-detox-llc/static/media/staff.05fa3028431c1d3d0788.jpg",
     "static/media/team2-min.jpg": "/elmo-detox-llc/static/media/team2-min.e706e26d4aabb9a13ac3.jpg",
-    "static/media/nav-logo.png": "/elmo-detox-llc/static/media/nav-logo.a09be1d445a78ab1ab85.png",
     "static/media/team5-min.jpg": "/elmo-detox-llc/static/media/team5-min.d726e8e87fc5c440d66d.jpg",
     "static/media/submenu-bg.jpg": "/elmo-detox-llc/static/media/submenu-bg.ebb4f6c7d8bd77ad609a.jpg",
     "static/media/therapy.jpg": "/elmo-detox-llc/static/media/therapy.dad0142aa6ca32c0ca9b.jpg",
     "static/media/team6-min.jpg": "/elmo-detox-llc/static/media/team6-min.ab3ea8b49b168c671184.jpg",
     "static/media/clinic.jpg": "/elmo-detox-llc/static/media/clinic.df2089786a9615989f92.jpg",
+    "static/media/nav-logo.png": "/elmo-detox-llc/static/media/nav-logo.e1489365e9c2e51a3ca1.png",
     "static/media/team1-min.jpg": "/elmo-detox-llc/static/media/team1-min.4396fea94291b3910114.jpg",
     "static/media/icon1.png": "/elmo-detox-llc/static/media/icon1.3c3c28dde4710e22b21a.png",
     "static/media/icon2.png": "/elmo-detox-llc/static/media/icon2.a5c33226b89a8a81e856.png",
@@ -52,11 +51,11 @@
     "static/media/bluecross.png": "/elmo-detox-llc/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/elmo-detox-llc/index.html",
     "static/media/waves.svg": "/elmo-detox-llc/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.bab5c009.css.map": "/elmo-detox-llc/static/css/main.bab5c009.css.map",
-    "main.5f893c7d.js.map": "/elmo-detox-llc/static/js/main.5f893c7d.js.map"
+    "main.f8de4f1b.css.map": "/elmo-detox-llc/static/css/main.f8de4f1b.css.map",
+    "main.f92bb517.js.map": "/elmo-detox-llc/static/js/main.f92bb517.js.map"
   },
   "entrypoints": [
-    "static/css/main.bab5c009.css",
-    "static/js/main.5f893c7d.js"
+    "static/css/main.f8de4f1b.css",
+    "static/js/main.f92bb517.js"
   ]
 }
