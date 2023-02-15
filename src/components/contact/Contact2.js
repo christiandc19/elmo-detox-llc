@@ -14,7 +14,7 @@ const ContactForm = () => {
 
 
         //    Service Id        Template Id                 Public Key (Account Tab) 
-        emailjs.sendForm('service_9v2gipl', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
+        emailjs.sendForm('service_64fq95g', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
