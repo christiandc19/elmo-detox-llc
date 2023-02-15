@@ -39,7 +39,8 @@ const Treatment = () => {
 
 
     <div className='treatment-wrap'>
-        <div className="treatment-box treatment-left">
+
+        <div className="left">
             <div className='treatment-title'>
                 <h1>INPATIENT PROGRAMS</h1>
             </div><br/>
@@ -54,21 +55,20 @@ const Treatment = () => {
                 </ul>
                 </p>
             </div>
-        <div className="treatment-box box">
+        <div className="right">
             <img src={Service1} width="600px" height="350px" alt="Office Team" loading="lazy" />
         </div>
-</div>
+    </div>
 
 
 
 <div className='treatment-wrap'>
-    
-    <div className="treatment-box box">
+    <div className="right">
         <img src={Service2} width="600px" height="400px" alt="Counselling session with patient" loading="lazy" />
     </div>
 
 
-    <div className="treatment-box treatment-left">
+    <div className="left">
         
             <div className='treatment-title'>
                 <h4>RESIDENTIAL</h4> <br/>
@@ -86,6 +86,7 @@ const Treatment = () => {
                     <li> <FaRegStar className='star'/> Take part in treatment and therapy during the day and spend your nights in the comfort of your own home.</li><br/>
                 </ul>
     </div>
+
 </div>
 
 
@@ -96,7 +97,7 @@ const Treatment = () => {
 
 
 <div className='treatment-wrap'>
-        <div className="treatment-box treatment-left">
+        <div className="left">
             <div className='treatment-title'>
                 <h1>OUTPATIENT PROGRAMS</h1>
             </div><br/>
@@ -112,7 +113,7 @@ const Treatment = () => {
                 </ul>
                 </p>
             </div>
-        <div className="treatment-box box">
+        <div className="right">
             <img src={Service3} width="600px" height="350px" alt="Counselling session with patient" loading="lazy" />
         </div>
 </div>
@@ -120,16 +121,14 @@ const Treatment = () => {
 
 
 
-
-
 <div className='treatment-wrap'>
     
-    <div className="treatment-box box">
+    <div className="right">
         <img src={Service4} width="600px" height="400px" alt="Counselling session with patient" loading="lazy" />
     </div>
 
 
-    <div className="treatment-box treatment-left">
+    <div className="left">
         
             <div className='treatment-title'>
                 <h4>IOP (Mental Health and Addiction)</h4> <br/>

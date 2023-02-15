@@ -43,7 +43,7 @@ const Navbar = () => {
                 
                  <div className="navbar-logo">
                     <Link to='/'>
-                    <img src={logo} width="160px" height="90px" alt="Palm Springs Rehab Logo" loading="lazy"/>
+                    <img src={logo} width="160px" height="80px" alt="Palm Springs Rehab Logo" loading="lazy"/>
                     </Link>
                 </div>
 
@@ -81,24 +81,18 @@ const Navbar = () => {
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/schizoaffective`}> Schizoaffective Disorder </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/schizophrenia`}> Schizophrenia </NavLink> </li>
                         </ul>
-
                     </li>
 
 
 
                     <li><Link to='/treatment'>Treatment</Link> </li>
 
-
-
-
-
-
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> about us <FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mission`}> Our Mission</NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/team`}> Our Team</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> Testimonials </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> FAQ </NavLink> </li>
+                            {/* <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> Testimonials </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> FAQ </NavLink> </li> */}
 
                         </ul>
                     </li>
