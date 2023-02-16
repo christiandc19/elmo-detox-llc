@@ -4,19 +4,13 @@
   display: flex;
   flex-wrap: wrap ;
   justify-content: space-evenly;
-  margin: 5rem 0 0 0;
+  margin: 2rem 0 0 0;
 }
 
-.left {
-    width: 600px;
-    height: auto;
-    display: inline-block;
+.right, .left {
+    width: 500px;
     padding: 1rem;
-}
 
-.right {
-    width: 600px;
-    padding: 1rem;
 }
 
 .right img {
@@ -25,17 +19,22 @@
     border-radius: 1rem;
 }
 
-
 .wrap .header {
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrap .header2 {
+    text-align: justify;
+    font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     color: black;
 }
 
-.wrap .header span {
+.wrap .header2 span {
     text-align: left;
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -81,9 +80,22 @@
         height: 50px;
     }
 
-    .wrap p {
+    .wrap p, .wrap .header2 {
         font-size: 14px;
         margin: 1rem;
+    }
+
+    .wrap .header2 {
+        font-size: 14px;
+        margin: 0 1rem;
+    }
+
+    .wrap .header {
+        margin: 0 1rem
+    }
+
+    .wrap .header2 span {
+        font-size: 22px;
     }
 
     .left .Whoweare-icon{
@@ -97,24 +109,14 @@
     .left button {
     margin: 1rem auto;
     }
-
-    .box-right-img img {
-    display: none;
-    }
-
 }
+
 
 @media screen and (max-width:500px) {
     .icons {
         width: 350px;
         height: 120px;
         margin: auto;
-    }
-
-    .box-right img {
-        width: 350px;
-        height: 250px;
-        margin: 10px;
     }
 
     .wrap {
