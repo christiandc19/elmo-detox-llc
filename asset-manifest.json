@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/elmo-detox-llc/static/css/main.9a5228e9.css",
-    "main.js": "/elmo-detox-llc/static/js/main.60cff6ad.js",
+    "main.css": "/elmo-detox-llc/static/css/main.469f73cc.css",
+    "main.js": "/elmo-detox-llc/static/js/main.15d6fbb2.js",
     "static/media/slider2.jpg": "/elmo-detox-llc/static/media/slider2.998d1b0ba1a4449d2aa8.jpg",
     "static/media/home1.png": "/elmo-detox-llc/static/media/home1.36fcbba2b792f74810e0.png",
     "static/media/footer-bg.jpg": "/elmo-detox-llc/static/media/footer-bg.36d62c855374b14b5cef.jpg",
@@ -56,11 +56,11 @@
     "static/media/bluecross.png": "/elmo-detox-llc/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/elmo-detox-llc/index.html",
     "static/media/waves.svg": "/elmo-detox-llc/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.9a5228e9.css.map": "/elmo-detox-llc/static/css/main.9a5228e9.css.map",
-    "main.60cff6ad.js.map": "/elmo-detox-llc/static/js/main.60cff6ad.js.map"
+    "main.469f73cc.css.map": "/elmo-detox-llc/static/css/main.469f73cc.css.map",
+    "main.15d6fbb2.js.map": "/elmo-detox-llc/static/js/main.15d6fbb2.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a5228e9.css",
-    "static/js/main.60cff6ad.js"
+    "static/css/main.469f73cc.css",
+    "static/js/main.15d6fbb2.js"
   ]
 }
