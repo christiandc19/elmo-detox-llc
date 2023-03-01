@@ -45,10 +45,13 @@
 }
 
 .group {
-    justify-content: center;
-    text-align: center;
+    width: 300px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.group img {
     width: 100%;
-    margin-bottom: -2rem;
 }
 
 @media  screen and (max-width:940px) {
@@ -60,10 +63,6 @@
 
     .InsuranceSection-container p {
         font-size: 14px;
-    }
-
-    .group img {
-        width: 350px;
     }
 
 
