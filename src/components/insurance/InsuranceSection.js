@@ -1,6 +1,9 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
 import './InsuranceSection.css'
+
+import InsuranceProps from "./InsuranceLogos"
+
 import Aetna from '../../assets/aetna.png'
 import Beacon from '../../assets/beacon.png'
 import Bluecross from '../../assets/bluecross.png'
@@ -26,9 +29,7 @@ const InsuranceSection = () => {
                 </div>
                 <div className="content">
                             <Fade bottom>
-                                <div className='insurance-thumbnail'>
-                                <img src={Aetna} height="100" alt="Aetna Insurance Logo" loading="lazy"/>
-                                </div>
+                                <InsuranceProps Image={Aetna} />
                             </Fade>
 
 
