@@ -1,83 +1,55 @@
 import React from 'react'
 import './Whoweare.css'
-import Fade from 'react-reveal/Fade';
-
-
-
-import Whoweare1 from '../../assets/slider1.jpg'
-import Whoweare2 from '../../assets/slider2.jpg'
-
-
-import Icon1 from '../../assets/icon1.png'
-import Icon2 from '../../assets/icon2.png'
-import Icon3 from '../../assets/icon3.png'
-import Cards from '../servicesCards/Cards';
-
-
+import { TbNurse } from 'react-icons/tb';
+import { BsHeadphones } from 'react-icons/bs';
+import { MdWorkOutline } from 'react-icons/md';
 
 
 const Whoweare = () => {
   return (
 <>
-    <div className='wrap'>
-        <Fade left>
-            <div className="left">
-                <h1 className='header'>WHO WE ARE</h1><br/>
-                <h1 className='header2'>At <span>Elmo Detox Center,</span> we provide safe and comfortable medical detox services for those struggling with addiction.</h1>
-                <br/>
-                <p>To ensure that those who attend our rehab facility receive tailored care to meet their individual needs, we conduct a series of evaluations before you begin treatment at our drug and alcohol detox center. <br/> <br/> These evaluations allow us to understand your active addictions, history of substance abuse, mental health disorders, co-occurring disorders, prior drug and alcohol treatment, and how our detox center can help you overcome your substance use disorder.</p>
-                <br />
-            </div>
-        </Fade>
 
-        <Fade right>
-            <div className="right">
-                <img src={Whoweare1} alt="Conselling Session with a patient" loading="lazy" />
-            </div>
-        </Fade>
+<div className='wwa'>
+    <div className='wwa-header'>
+        <h1>We Will Help For Your Better Health</h1>
+        <p>
+            At Elmo Detox Center, we provide safe and comforable medical detox <br /> services for those struggling with addiction. 
+        </p>
     </div>
+</div>
 
 
-
-
-    <Cards />
-
-
-
-    <div className='wrap'>
-
-        <Fade right>
-            <div className="left">
-                <div className='Whoweare-icon'>
-                    <div className='icons'>
-                    <img src={Icon1} width="50px" height="50px" alt="Conselling Session with a patient" loading="lazy" />
-                    <p><span>DEDICATED STAFF</span> <br/> The medical professionals on our team are completely dedicated to your recovery. </p>
-                    </div>
-
-                    <div className='icons'>
-                    <img src={Icon2} width="50px" height="50px" alt="Conselling Session with a patient" loading="lazy" />
-                    <p><span>PROVEN METHODS</span> <br/> Our treatment methods are solely based on proven research and science-based evidence.</p>
-                    </div>
-
-                    <div className='icons'>
-                    <img src={Icon3} width="50px" height="50px" alt="Conselling Session with a patient" loading="lazy" />
-                    <p><span>24/7 SUPPORT</span> <br/> Guidance and support are always in reach. We provide care for you whenever needed.</p>
-                    </div>
-                </div>
-                
+<div className='wwa-cards'>
+    <div className='wwa-cards-contents'>
+        <div className='card1 card'>
+            <div className='card-content'>
+                <TbNurse className='card-icon1'/>
+                <h1>Substance Abuse Programs</h1>
+                <p>Treatment options for a multitude of substance use disorders. Whether you suffer from alcohol, prescription drugs, or other substance abuse disorders, find better healing with us.</p>
+                <h5>LEARN MORE</h5>
             </div>
-        </Fade>
+        </div>
 
-        <Fade left>
-            <div className="right">
-                <img src={Whoweare2}  alt="Conselling Session with a patient" loading="lazy" />
-            </div>
-        </Fade>
+        <div className='card2 card'>
+            <div className='card-content'>
+                <BsHeadphones className='card-icon2'/>
+                <h1>Free Consultation</h1>
+                <p>Guidance and support are always in reach. We provide care for you whenever needed.</p>
+                <h5>CONTACT US</h5>
+            </div>        
+        </div>
 
 
+        <div className='card3 card'>
+            <div className='card-content'>
+                <MdWorkOutline className='card-icon3'/>
+                <h1>Employment Assistance Programs</h1>
+                <p>Our most unique feature sets you up with interview clothes, interview skills, resume assistance, and all the resources you need to get a job with a great company.</p>
+                <h5>LEARN MORE</h5>
+            </div>      
+        </div>
     </div>
-
-
+</div>
 
 </>
   )

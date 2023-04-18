@@ -1,126 +1,173 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Hebrew:wght@300&display=swap');
 
-.wrap {
-  display: flex;
-  flex-wrap: wrap ;
-  justify-content: space-evenly;
-  margin: 2rem 0 0 0;
+.wwa-header {
+    text-align: center;
+    padding: 3rem 0;
 }
 
-.right, .left {
-    width: 500px;
+.wwa-header h1 {
+    font-size: 2.5rem;
     padding: 1rem;
-
-}
-
-.right img {
-    width: 100%;
-    height: 100%;
-    border-radius: 1rem;
-}
-
-.wrap .header {
-    text-align: left;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.wrap .header2 {
-    text-align: justify;
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
     color: black;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
 }
 
-.wrap .header2 span {
-    text-align: left;
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.wrap p, .wrap ul li {
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: justify;
-}
-
-.box-btn {
-    text-align: center;
-}
-
-.Whoweare-icon {
-    width: 600px;
-}
-
-.icons {
-    display: flex;
-    justify-content: space-between;
-    height: 100px;
-    text-align: center;
-    margin: 1rem;
+.wwa-header p {
+    margin: auto;
+    font-size: 18px;
+    letter-spacing: 2px;
     padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0px 15px 40px -20px rgba(0,0,0,0.64);
-    width: auto;
+    font-family: 'Roboto', sans-serif;
 }
 
-.icons p {
-    width: 500px;
-    margin-left: 1rem;
+/* cards */
+
+.wwa-cards-contents {
+    display: flex;
+    justify-content: center;
 }
 
+.card-content {
+    top: 10%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
 
+.card-icon1, .card-icon3 {
+    font-size: 6rem;
+    color: rgb(139, 85, 4);
+    padding: 1rem 0;
+}
 
-/* MEDIA QUERIES */
+.card-icon2 {
+    font-size: 6rem;
+    color: rgb(255, 255, 255);
+    padding: 1rem 0;
+}
+
+/*  card 1 */
+
+.card1 {
+    margin-top: 1.5rem;
+    width: 450px;
+    height: 400px;
+    position: relative;
+    justify-content: center;
+    background-color: rgba(241, 237, 232, 0.980);
+  }
+  
+  .card1:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/sa-icon.png') no-repeat center top/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+.card1 h1 {
+    font-size: 1.5rem;
+    font-family: 'Noto Serif Hebrew', serif;
+}
+
+.card1 p {
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card1 h5 {
+    color: rgb(139, 85, 4);
+    letter-spacing: 2px;
+}
+
+/*  card 2 */
+
+.card2 {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    justify-content: center;
+    background-color: rgba(143, 101, 82, 0.98);
+  }
+  
+  .card2:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/sa-icon.png') no-repeat center top/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+.card2 h1 {
+    font-size: 1.5rem;
+    font-family: 'Noto Serif Hebrew', serif;
+    color: white;
+}
+
+.card2 p {
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.card2 h5 {
+    letter-spacing: 2px;
+    color: white;
+}
+
+/*  card 3 */
+
+.card3 {
+    margin-top: 1.5rem;
+    width: 450px;
+    height: 400px;
+    position: relative;
+    justify-content: center;
+    background-color: rgba(241, 237, 232, 0.980);
+  }
+  
+  .card3:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/sa-icon.png') no-repeat center top/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+.card3 h1 {
+    font-size: 1.5rem;
+    font-family: 'Noto Serif Hebrew', serif;
+}
+
+.card3 p {
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card3 h5 {
+    color: rgb(139, 85, 4);
+    letter-spacing: 2px;
+}
+
 
 @media screen and (max-width:940px) {
-
-    .Whoweare-icon img {
-        width: 50px;
-        height: 50px;
+    
+    .wwa-cards-contents {
+        flex-wrap: wrap;
     }
 
-    .wrap p, .wrap .header2 {
-        font-size: 14px;
-        margin: 1rem;
+    .card3 {
+        margin-top: 0;
     }
 
-    .wrap .header2 {
-        font-size: 14px;
-        margin: 0 1rem;
-    }
-
-    .wrap .header {
-        margin: 0 1rem
-    }
-
-    .wrap .header2 span {
-        font-size: 22px;
-    }
-
-    .left .Whoweare-icon{
+    .card {
         width: 100%;
+        height: 350px;
     }
-
-    .left h1 {
-        font-size: 2rem;
-    }
-
-    .left button {
-    margin: 1rem auto;
-    }
-}
-
-
-@media screen and (max-width:500px) {
-    .icons {
-        width: 350px;
-        height: 120px;
-        margin: auto;
-    }
-
-    .wrap {
-        margin: 1rem 0 0 0;
-      }
 
 }

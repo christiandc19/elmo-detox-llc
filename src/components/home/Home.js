@@ -1,8 +1,8 @@
 import React from 'react'
-import InsuranceSection from '../insurance/InsuranceSection';
+// import InsuranceSection from '../insurance/InsuranceSection';
 // import WhatWeDo from '../whatWeDo/Whatwedo';
 import Whoweare from '../Whoweare/Whoweare'
-import ContactForm from '../contact/ContactForm';
+// import ContactForm from '../contact/ContactForm';
 
 
 
@@ -11,8 +11,8 @@ const home = () => {
     <>
     {/* <WhatWeDo /> */}
     <Whoweare />
-    <InsuranceSection />
-    <ContactForm />
+    {/* <InsuranceSection /> */}
+    {/* <ContactForm /> */}
     </>
   )
 }

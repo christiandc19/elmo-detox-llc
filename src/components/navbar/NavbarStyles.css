@@ -6,7 +6,7 @@
     height: 80px;
     position: absolute;
     z-index: 10;
-    background: #6e4c41b2;
+    background: #6e4c4100;
 }
 
 .navbar .navbar-container {
@@ -59,6 +59,7 @@
 
 .navbar li a {
   font-weight: 600;
+  letter-spacing: 2px;
 }
 
   .menu-item .sub__menus li a {
