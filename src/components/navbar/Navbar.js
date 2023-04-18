@@ -85,7 +85,7 @@ const Navbar = () => {
 
 
 
-                    <li><Link to='/treatment'>Treatment</Link> </li>
+                    <li><Link to='/treatment'>Our Method</Link> </li>
 
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> about us <FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 

@@ -1,0 +1,84 @@
+.section2 {
+    width: 100%;
+    height: auto;
+    padding: 4rem 0;
+}
+
+.section2 .content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* left */
+
+.section2 .content .left {
+    width: 50%;
+    background: url('../../assets/section1-image1.jpg') no-repeat center top/cover;
+}
+
+.section2 .content .left img {
+    width: 100%;
+}
+
+
+/* right */
+
+.section2 .content .right {
+    width: 50%;
+    padding:  2rem;
+}
+
+.section2 .content .right .right-content {
+    width: 70%;
+    padding:  2rem;
+    margin: auto;
+}
+
+.section2 .content .right p {
+    font-size: 24px;
+    text-align: left;
+}
+
+.section2 .right h1 {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.section2 .right h2 {
+    font-size: 3rem;
+    padding: 1rem 0;
+    line-height: 3.5rem;
+}
+
+.section2 .right span {
+    font-size: 2rem;
+}
+
+.check {
+    font-size: 1.5rem;
+    color: rgb(139, 85, 4);
+}
+
+.section2 .right ul li {
+    font-size: 1rem;
+    padding: 1rem 0;
+    font-weight: 600;
+}
+
+.section2 .right ul li span {
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    font-weight: 600;
+}
+
+@media screen and (max-width:940px) {
+    .section2 .content .right .right-content {
+        width: 90vw;
+    }
+
+    .section2 .content .left {
+        width: 100%;
+    }
+
+    
+}

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
+
 .ts-wrap {
   display: flex;
   flex-wrap: wrap ;
@@ -48,6 +49,8 @@
 
 @media screen and (max-width:940px) {
 
+
+
     .ts-wrap p, .ts-wrap .ts-header2 {
         font-size: 14px;
         margin: 1rem;
@@ -73,5 +76,7 @@
     .treatment-section-header {
         text-align: center;
     }
+
+
 }
 
