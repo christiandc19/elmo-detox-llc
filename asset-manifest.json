@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/elmo-detox-llc/static/css/main.2a90a9d5.css",
-    "main.js": "/elmo-detox-llc/static/js/main.f59d41c9.js",
-    "static/media/slider1.jpg": "/elmo-detox-llc/static/media/slider1.7f07d69e6e8c3da2edac.jpg",
+    "main.css": "/elmo-detox-llc/static/css/main.c8027941.css",
+    "main.js": "/elmo-detox-llc/static/js/main.fbf5ad71.js",
+    "static/media/hero-bg.jpg": "/elmo-detox-llc/static/media/hero-bg.df17cd5697da89893aab.jpg",
     "static/media/group.jpg": "/elmo-detox-llc/static/media/group.f2747f5f4787c599bd13.jpg",
-    "static/media/slider2.jpg": "/elmo-detox-llc/static/media/slider2.998d1b0ba1a4449d2aa8.jpg",
     "static/media/home1.png": "/elmo-detox-llc/static/media/home1.36fcbba2b792f74810e0.png",
     "static/media/footer-bg.jpg": "/elmo-detox-llc/static/media/footer-bg.36d62c855374b14b5cef.jpg",
     "static/media/home2.png": "/elmo-detox-llc/static/media/home2.c887b4fad9b85f2dcae7.png",
     "static/media/home5.png": "/elmo-detox-llc/static/media/home5.332add0d7c324fdad002.png",
     "static/media/mental-health-submenu-bg.jpg": "/elmo-detox-llc/static/media/mental-health-submenu-bg.d7a879df78f005aec194.jpg",
     "static/media/home6.png": "/elmo-detox-llc/static/media/home6.38a0873a5e77ccf59571.png",
-    "static/media/hero-bg.jpg": "/elmo-detox-llc/static/media/hero-bg.45ede107adce33c7f973.jpg",
     "static/media/home4.png": "/elmo-detox-llc/static/media/home4.69294e498f7551a48e9a.png",
     "static/media/home3.png": "/elmo-detox-llc/static/media/home3.2d7202400a2e7d280011.png",
     "static/media/mh-submenu-bg.jpg": "/elmo-detox-llc/static/media/mh-submenu-bg.b41155bca1af6f12a7f7.jpg",
@@ -43,24 +41,19 @@
     "static/media/clinic.jpg": "/elmo-detox-llc/static/media/clinic.df2089786a9615989f92.jpg",
     "static/media/nav-logo.png": "/elmo-detox-llc/static/media/nav-logo.e1489365e9c2e51a3ca1.png",
     "static/media/team1-min.jpg": "/elmo-detox-llc/static/media/team1-min.4396fea94291b3910114.jpg",
-    "static/media/icon1.png": "/elmo-detox-llc/static/media/icon1.3c3c28dde4710e22b21a.png",
-    "static/media/icon2.png": "/elmo-detox-llc/static/media/icon2.a5c33226b89a8a81e856.png",
-    "static/media/icon3.png": "/elmo-detox-llc/static/media/icon3.40ddbe883c7e575c3e5c.png",
-    "static/media/card2-3.jpg": "/elmo-detox-llc/static/media/card2-3.6e0e8a14c4f2b3323b60.jpg",
-    "static/media/card2-2.jpg": "/elmo-detox-llc/static/media/card2-2.2b322fd7011e4e779458.jpg",
-    "static/media/card2-1.jpg": "/elmo-detox-llc/static/media/card2-1.0eccd05879d84c70c453.jpg",
     "static/media/united-healthcare.png": "/elmo-detox-llc/static/media/united-healthcare.78400c2f51fba67d0aff.png",
     "static/media/horizon.png": "/elmo-detox-llc/static/media/horizon.93f9071008042e378717.png",
     "static/media/umr.png": "/elmo-detox-llc/static/media/umr.0e284d15516d535bf42b.png",
+    "static/media/sa-icon.png": "/elmo-detox-llc/static/media/sa-icon.84941f0dd26e2480d659.png",
     "static/media/aetna.png": "/elmo-detox-llc/static/media/aetna.ba1c7baa5f90d207ae2b.png",
     "static/media/bluecross.png": "/elmo-detox-llc/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/elmo-detox-llc/index.html",
     "static/media/waves.svg": "/elmo-detox-llc/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.2a90a9d5.css.map": "/elmo-detox-llc/static/css/main.2a90a9d5.css.map",
-    "main.f59d41c9.js.map": "/elmo-detox-llc/static/js/main.f59d41c9.js.map"
+    "main.c8027941.css.map": "/elmo-detox-llc/static/css/main.c8027941.css.map",
+    "main.fbf5ad71.js.map": "/elmo-detox-llc/static/js/main.fbf5ad71.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a90a9d5.css",
-    "static/js/main.f59d41c9.js"
+    "static/css/main.c8027941.css",
+    "static/js/main.fbf5ad71.js"
   ]
 }
