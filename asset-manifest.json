@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/elmo-detox-llc/static/css/main.8e3e9d9c.css",
-    "main.js": "/elmo-detox-llc/static/js/main.0a7c8dcf.js",
+    "main.css": "/elmo-detox-llc/static/css/main.966727ec.css",
+    "main.js": "/elmo-detox-llc/static/js/main.a570d689.js",
     "static/media/Section4-image1.jpg": "/elmo-detox-llc/static/media/Section4-image1.2a5bf15500b0750cbb64.jpg",
     "static/media/hero-bg.jpg": "/elmo-detox-llc/static/media/hero-bg.df17cd5697da89893aab.jpg",
-    "static/media/section1-image1.jpg": "/elmo-detox-llc/static/media/section1-image1.a781a123c6cb62aeb44b.jpg",
-    "static/media/method-bg.jpg": "/elmo-detox-llc/static/media/method-bg.aa318a681783505f474d.jpg",
+    "static/media/method-bg.jpg": "/elmo-detox-llc/static/media/method-bg.adbd4ddb5ae03bbbb9a8.jpg",
+    "static/media/section2-image1.jpg": "/elmo-detox-llc/static/media/section2-image1.bed59883f83b21c8531c.jpg",
+    "static/media/treatment-1.jpg": "/elmo-detox-llc/static/media/treatment-1.a781a123c6cb62aeb44b.jpg",
+    "static/media/treatment-2.jpg": "/elmo-detox-llc/static/media/treatment-2.f442973591c15e5e2ab4.jpg",
     "static/media/hero-bg-1.jpg": "/elmo-detox-llc/static/media/hero-bg-1.0c93d4ffcbaadc387b6f.jpg",
     "static/media/group.jpg": "/elmo-detox-llc/static/media/group.f2747f5f4787c599bd13.jpg",
     "static/media/home1.png": "/elmo-detox-llc/static/media/home1.36fcbba2b792f74810e0.png",
@@ -25,8 +27,6 @@
     "static/media/employment-assistance.jpg": "/elmo-detox-llc/static/media/employment-assistance.901043c1cb7000c857c3.jpg",
     "static/media/addiction-submenu-bg.jpg": "/elmo-detox-llc/static/media/addiction-submenu-bg.03932f5698f86583efc1.jpg",
     "static/media/menu-bg-about.jpg": "/elmo-detox-llc/static/media/menu-bg-about.3ce1099a8cc09b6d0f3f.jpg",
-    "static/media/treatment-1.jpg": "/elmo-detox-llc/static/media/treatment-1.9b93aa36872433733c19.jpg",
-    "static/media/treatment-2.jpg": "/elmo-detox-llc/static/media/treatment-2.6125ee1c93e30c1b25e6.jpg",
     "static/media/contact-form-bg.jpg": "/elmo-detox-llc/static/media/contact-form-bg.89154d3cfe6a2e417f53.jpg",
     "static/media/submenu-bg-team.jpg": "/elmo-detox-llc/static/media/submenu-bg-team.60bc3ede9e9bb99c5f4b.jpg",
     "static/media/menu-bg-insurance.jpg": "/elmo-detox-llc/static/media/menu-bg-insurance.feda551b4ff3f77df9da.jpg",
@@ -52,11 +52,11 @@
     "static/media/bluecross.png": "/elmo-detox-llc/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/elmo-detox-llc/index.html",
     "static/media/waves.svg": "/elmo-detox-llc/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.8e3e9d9c.css.map": "/elmo-detox-llc/static/css/main.8e3e9d9c.css.map",
-    "main.0a7c8dcf.js.map": "/elmo-detox-llc/static/js/main.0a7c8dcf.js.map"
+    "main.966727ec.css.map": "/elmo-detox-llc/static/css/main.966727ec.css.map",
+    "main.a570d689.js.map": "/elmo-detox-llc/static/js/main.a570d689.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e3e9d9c.css",
-    "static/js/main.0a7c8dcf.js"
+    "static/css/main.966727ec.css",
+    "static/js/main.a570d689.js"
   ]
 }
