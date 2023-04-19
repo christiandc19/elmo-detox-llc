@@ -95,6 +95,16 @@
 }
 
 
+@media screen and (max-width: 940px) {
+    .group {
+        width: 375px;
+        margin: auto;
+    }
+    
+    .group img {
+        width: 100%;
+    }
+}
 
 
 

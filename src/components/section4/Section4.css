@@ -74,9 +74,6 @@
 .Section4 .section4-right {
     width: 800px;
     margin: auto;
-}
-
-.section4-right .right-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -165,22 +162,23 @@
 
 
 @media screen and (max-width:940px) {
-    .section4-right .right-content {
-        flex-wrap: wrap;
-    }
 
-    .section4-right .right-content .box{
+
+    .section4-right  .box{
         width: 90vw;
     }
     
     .Section4 .section4-left h1{
         font-size: 2rem;
-        width: auto;
     }
 
     .Section4 .section4-left {
         width: 90vw;
-        margin: auto;
+    }
+
+    .Section4 .section4-right {
+        width: 90%;
+
     }
     
 }

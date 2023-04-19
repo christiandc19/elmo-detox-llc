@@ -34,7 +34,6 @@ const Section4 = () => {
 
                         <div className='section4-right'>
 
-                            <div className='right-content'>
 
                                 <div className='box1 box'>
                                     <div className='box-content'>
@@ -72,7 +71,6 @@ const Section4 = () => {
 
                             </div>
                         </div>
-                </div>
 </>
 
     )

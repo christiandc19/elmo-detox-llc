@@ -47,7 +47,7 @@ const Whoweare = () => {
         <div className='card3 card'>
             <div className='card-content'>
                 <MdWorkOutline className='card-icon3'/>
-                <h1>Employment Assistance Programs</h1>
+                <h1>Employment Assistance</h1>
                 <p>Our most unique feature sets you up with interview clothes, interview skills, resume assistance, and all the resources you need to get a job with a great company.</p>
                 <Link to="/jobs">
                 <h5>LEARN MORE</h5>
