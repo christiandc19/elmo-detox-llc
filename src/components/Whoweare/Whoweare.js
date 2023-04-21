@@ -12,7 +12,7 @@ const Whoweare = () => {
 
 <div className='wwa'>
     <div className='wwa-header'>
-        <h1>We Will Help For Your Better Health</h1>
+        <h1>Keep your sobriety first to make it last.</h1>
         <p>
             At Elmo Detox Center, we provide safe and comforable medical detox <br /> services for those struggling with addiction. 
         </p>
