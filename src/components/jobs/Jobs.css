@@ -8,8 +8,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: #3f321e9c;
-  }
+    background: rgba(13, 14, 13, 0.603);  
+}
   
   .jobs:before {
     content: '';
