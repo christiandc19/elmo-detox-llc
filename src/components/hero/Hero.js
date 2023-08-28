@@ -5,15 +5,12 @@ import './Hero.css'
 
 // import Wave from '../../assets/waves.svg'
 
+
 const Hero = () => {
     return (
 <>        
         <div className='hero'>
 
-
-        {/* <div className='hero-divider'>
-                <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
-            </div> */}
 
 
             <div className="hero-container">
@@ -22,7 +19,7 @@ const Hero = () => {
                         <h1>ELMO DETOX</h1>
                     </Fade>
                     <Fade left>
-                        <h2 className='subtitle'>Substance Abuse Addiction and Mental Health Treatment Facility</h2>
+                        <h2 className='subtitle'>SUBSTANCE ABUSE ADDICTION TREATMENT FACILITY</h2>
                     </Fade>
                         <br />
                         

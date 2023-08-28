@@ -6,7 +6,7 @@
     height: 80px;
     position: absolute;
     z-index: 10;
-    background: #3b3939ea;
+    /* background: #3b3939ea; */
 }
 
 .navbar .navbar-container {
@@ -16,8 +16,12 @@
   align-items: center;
 }
 
+.navbar-logo {
+  width: 200px;
+}
+
 .navbar-logo img {
-  padding: 10px;
+  width: 100%;
 }
 
 .navbar-logo h1 {
@@ -48,21 +52,18 @@
     /* padding: 2rem 0; */
 }
 
-.navbar li {
+.navbar li a {
     font-size: 13px;
     width: max-content;
     padding: .5rem 1rem;
-    color: #fff;
+    color: #eee6e6;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     border-right: 1px solid rgba(255, 255, 255, 0.247);
-    padding: 1.9rem 1.5rem;
+    padding: .5rem 1.5rem;
+    font-weight: 500;
 }
 
-.navbar li a {
-  letter-spacing: 2px;
-  font-family: 'Raleway', sans-serif;
-}
 
 a {
   text-decoration: none;
@@ -93,7 +94,7 @@ a:hover {
     background: white;
     border: 1px solid lavender;
     border-radius: 10px;
-    width: 240px;
+    width: auto;
     left: -17px;
     padding: 2px 0 0 0;
     margin-top: 6px;
@@ -109,7 +110,7 @@ a:hover {
   .sub__menus__arrows svg, .sub__menus__arrows__full svg {
     padding-top: 0px;
     position: absolute;
-    top: 32px;
+    top: 12px;
   }
 
 
@@ -132,16 +133,21 @@ a:hover {
         transition: 0.5s ease-in;
     }
 
+    .navbar li a {
+      border-right: none;
+  }
+
     .sub__menus__arrows svg, .sub__menus__arrows__full svg {
       padding-top: 0px;
       position: absolute;
-      top: 20px;
+      top: 27px;
+      margin-left: .8rem;
     }
 
     .navbar li {
-      font-size: 13px;
+      font-size: 20px;
       border-right: none;
-      padding: 1rem 1.5rem;
+      padding: 0;
   }
 
 
@@ -165,14 +171,11 @@ a:hover {
         padding: .2rem 1rem;
       }
 
-      .sub__menus {
-        width: 250px;
-      }
-
       .navbar .navbar-container {
         justify-content: space-between;
       }
 
+      
 }
 
 

@@ -9,24 +9,33 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: #1b191670;
+    background: #0c0c0c00;
   }
   
   .hero:before {
     content: '';
     position: absolute;
-    background: url('../../assets/hero-bg.jpg') no-repeat center top/cover;
+    background: url('../../assets/hero-bg.jpg') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
   }
 
+  .navbg {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .navbg img {
+    width: 100%;
+  }
 
 .hero .hero-container {
+    width: 100%;
     top: 30%;
     position: absolute;
     text-align: center;
-    left: 10%;
 }
 
 .hero-logo {
@@ -36,20 +45,20 @@
 .hero h1 {
     font-size: 6rem;
     text-align: center;
-    color: white;
+    color: rgb(243, 235, 235);
     font-family: 'Montserrat', sans-serif;
 }
 
 .hero h2 {
     font-size: 1.5rem;
     text-align: center;
-    color: white;
+    color: rgb(241, 234, 234);
 }
 
 .hero-container p {
     font-size: 18px;
     text-align: center;
-    color: white;
+    color: rgb(243, 237, 237);
 }
 
 .hero .hero-btn button {
