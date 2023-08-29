@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/elmo-detox-llc/static/css/main.906a9bfe.css",
-    "main.js": "/elmo-detox-llc/static/js/main.64cd3db8.js",
+    "main.css": "/elmo-detox-llc/static/css/main.d8892e36.css",
+    "main.js": "/elmo-detox-llc/static/js/main.50c1b35b.js",
     "static/media/treatment-1.jpg": "/elmo-detox-llc/static/media/treatment-1.a781a123c6cb62aeb44b.jpg",
     "static/media/treatment-2.jpg": "/elmo-detox-llc/static/media/treatment-2.f442973591c15e5e2ab4.jpg",
     "static/media/section2-image1.jpg": "/elmo-detox-llc/static/media/section2-image1.cba9f703ba4ebf7d8af2.jpg",
@@ -42,7 +42,7 @@
     "static/media/team6-min.jpg": "/elmo-detox-llc/static/media/team6-min.ab3ea8b49b168c671184.jpg",
     "static/media/clinic.jpg": "/elmo-detox-llc/static/media/clinic.df2089786a9615989f92.jpg",
     "static/media/team1-min.jpg": "/elmo-detox-llc/static/media/team1-min.4396fea94291b3910114.jpg",
-    "static/media/nav-logo.png": "/elmo-detox-llc/static/media/nav-logo.2925df3244c0dca68af1.png",
+    "static/media/nav-logo.png": "/elmo-detox-llc/static/media/nav-logo.01270a89f9b27326a78a.png",
     "static/media/umr.png": "/elmo-detox-llc/static/media/umr.90b117cc78229ef7c5f9.png",
     "static/media/anthem.png": "/elmo-detox-llc/static/media/anthem.e3f48eec6f2f57746acb.png",
     "static/media/beacon.png": "/elmo-detox-llc/static/media/beacon.75cac72646ba394a6ac9.png",
@@ -56,11 +56,11 @@
     "static/media/sa-icon.png": "/elmo-detox-llc/static/media/sa-icon.84941f0dd26e2480d659.png",
     "index.html": "/elmo-detox-llc/index.html",
     "static/media/waves.svg": "/elmo-detox-llc/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.906a9bfe.css.map": "/elmo-detox-llc/static/css/main.906a9bfe.css.map",
-    "main.64cd3db8.js.map": "/elmo-detox-llc/static/js/main.64cd3db8.js.map"
+    "main.d8892e36.css.map": "/elmo-detox-llc/static/css/main.d8892e36.css.map",
+    "main.50c1b35b.js.map": "/elmo-detox-llc/static/js/main.50c1b35b.js.map"
   },
   "entrypoints": [
-    "static/css/main.906a9bfe.css",
-    "static/js/main.64cd3db8.js"
+    "static/css/main.d8892e36.css",
+    "static/js/main.50c1b35b.js"
   ]
 }
