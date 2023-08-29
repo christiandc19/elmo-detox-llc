@@ -1,16 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
 
-
 .Section4 {
     width: 100%;
     height: auto;
     position: relative;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
     background: #1f1e1eaf;
-
 }
   
   .Section4:before {
@@ -24,10 +19,8 @@
 
 .Section4 .content {
     display: flex;
-    flex-wrap: nowrap;
-    gap: 1rem;
-    top: 10%;
-    padding: 5rem 0;
+    justify-content: center;
+    padding: 3rem 1rem;
 }
 
 .box-icon {
@@ -47,11 +40,7 @@
 .Section4 .section4-left {
     width: 500px;
     margin: auto;
-}
-
-.Section4 .left-content {
-    top: 15%;
-
+    padding: 1rem;
 }
 
 .Section4 .section4-left h1{
@@ -72,7 +61,7 @@
 /* RIGHT */
 
 .Section4 .section4-right {
-    width: 800px;
+    width: 60%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -80,8 +69,8 @@
 }
 
 .section4-right .box {
-    height: 320px;
-    width: 350px;
+    height: auto;
+    width: 40%;
     background-color: rgba(24, 23, 23, 0.247);
 }
 
@@ -146,6 +135,11 @@
     .Section4 .section4-left {
         width: 100%;
     }
+
+    .Section4 .section4-right {
+        width: 100%;
+    }
+
 
     .Section4 .content {
         flex-wrap: wrap;

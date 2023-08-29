@@ -1,8 +1,7 @@
 .section2 {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     padding: 5rem 0;
-    gap: 2rem;
     justify-content: center;
 }
 
@@ -11,6 +10,7 @@
 
 .section2 .left {
     width: 700px;
+    margin: auto;
 }
 
 .section2 img {
@@ -23,6 +23,7 @@
 
 .section2 .right {
     width: 600px;
+    margin: auto;
 }
 
 .section2 .right p {
@@ -36,7 +37,7 @@
 }
 
 .section2 .right h2 {
-    font-size: 2rem;
+    font-size: 1.2rem;
     padding: 1rem 0 0 0;
     line-height: 2.5rem;
 }
@@ -62,14 +63,17 @@
     font-weight: 600;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:940px) {
+
+    .section2 {
+        flex-wrap: wrap;
+    }
+
     .section2 .right {
         width: 100%;
         padding: 1rem;
         text-align: center;
     }
-
-
 
     .section2 .right h2 {
         font-size: 1.5rem;
