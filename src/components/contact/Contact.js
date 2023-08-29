@@ -1,9 +1,7 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
-
 import ContactForm from "./ContactForm";
 import './Contact.css'
-import Wave from '../../assets/waves.svg'
 
 
 const Contact = () => {
@@ -12,9 +10,6 @@ const Contact = () => {
       <>
 
 <div className='contact-hero main-menu'>
-<div className='hero-divider'>
-                <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
-            </div>
             <div className="contact-hero-content">
             <Fade top>
                     <h1>HAVE SOME QUESTIONS?</h1>
