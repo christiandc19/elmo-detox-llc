@@ -54,6 +54,12 @@
     padding: 1rem 0;
 }
 
+.wwa-cards button {
+    background-color: rgb(161, 101, 61);
+    color: white;
+    border-radius: 5px;
+}
+
 /*  card 1 */
 
 .card1 {
