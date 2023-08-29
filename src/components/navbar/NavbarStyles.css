@@ -6,8 +6,8 @@
     height: auto;
     position: absolute;
     z-index: 10;
-    padding: 3rem .5rem;
-    /* background: #3b3939ea; */
+    padding: 1rem .5rem;
+    background: #13121231;
 }
 
 .navbar .navbar-container {
