@@ -12,7 +12,7 @@ const Cards = () => {
     <>
 
     <div className='main-cards-header container'>
-      <h1>WELCOME TO 20TH STREET RECOVERY</h1>
+      <h1>WELCOME TO ELMO DETOX</h1>
       <h2>“Set yourself on the right path moving forward.”</h2>
 
     </div>
@@ -23,8 +23,8 @@ const Cards = () => {
 
             <div class="card-wrap">
                 <div className='cards-header-left'>
-                  <h3>20th Street Recovery makes getting treatment <span>possible.</span></h3><br/>
-                  <p>At 20th Street Recovery Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
+                  <h3>Elmo Detox makes getting treatment <span>possible.</span></h3><br/>
+                  <p>At Elmo Detox Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
               </div>
             
 

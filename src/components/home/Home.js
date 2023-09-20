@@ -10,10 +10,10 @@ import Section2 from '../section2/Section2';
 const home = () => {
   return (
     <>
+    <Section1 />
     <Cards />
     <Conditions />
     <Section2 />
-    <Section1 />
     <InsuranceSection />
     <MissionHome />
     <ContactForm />

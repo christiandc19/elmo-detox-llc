@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 import {NavLink, Link} from 'react-router-dom'
 import logo from '../../assets/nav-logo.png'
 import {AiOutlineCaretDown } from "react-icons/ai";
+import Topbar from '../../components/topbar/Topbar';
 
 import './NavbarStyles.css'
 
@@ -40,12 +41,14 @@ const Navbar = () => {
 
 
     return (
+        <>
+    <Topbar />
         <div name='top' className='navbar'>
             <div className="navbar-container">
 
                     <div className="navbar-logo hide">
                         <Link to='/'>
-                        <img src={logo} alt="20th Street Rehab Logo" loading="lazy"/>
+                        <img src={logo} alt="Elmo Detox Logo" loading="lazy"/>
                         </Link>
                     </div>
 
@@ -100,7 +103,7 @@ const Navbar = () => {
 
                     {/* <div className="navbar-logo show">
                         <Link to='/'>
-                        <img src={logo} alt="20th Street Rehab Logo" loading="lazy"/>
+                        <img src={logo} alt="Elmo Detox Logo" loading="lazy"/>
                         </Link>
                     </div> */}
 
@@ -122,6 +125,7 @@ const Navbar = () => {
                 </div>
             </div>
         </div>
+    </>
     )
 }
 

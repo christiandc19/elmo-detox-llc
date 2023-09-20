@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="container">
                 <div className="top">
                     <div className="logo-footer">
-                    <img src={logo} alt="20th Street Detox Logo" loading="lazy"/>
+                    <img src={logo} alt="Elmo Detox Logo" loading="lazy"/>
                     </div>
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <BsFillArrowUpCircleFill className='footer-icon' />
@@ -62,7 +62,7 @@ const Footer = () => {
                     </div>
 
                 </div>
-                <p className='copyright'><p>&copy; 2023 20th Street Detox. All rights reserved.</p></p>
+                <p className='copyright'><p>&copy; 2023 Elmo Detox. All rights reserved.</p></p>
 
 
             </div>

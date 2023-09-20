@@ -1,29 +1,39 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
 
-import ContactForm from "./ContactForm";
 import './Contact.css'
+
+import Team from "../../assets/team.png";
+
 
 const Contact = () => {
 
     return (
-      <>
+            <>
+            <div className='contact main-menu'>
 
-<div className='contact-hero main-menu'>
-            <div className="contact-hero-content">
-            <Fade top>
-                    <h1>HAVE SOME QUESTIONS?</h1>
-            </Fade>
-            <Fade right>
-                  <p>Our Addiction and Recovery Support team is available to assist you. </p>
-            </Fade>
-            </div>
-     </div>
+                        <div className="contact-content container">
+                        <div className='team'>
+                            <img src={Team} alt="Calm man in front of the sea" loading="lazy" />
+                        </div>
 
-      <ContactForm />
+                        <Fade top>
+                        <div className="contact-caption">
+                            <h1>HAVE SOME QUESTIONS?</h1>
+                            <p>Our Addiction and Recovery Support team is available to assist you.</p>
+                        </div>
+                        </Fade>
+                        </div>
+                    </div>
 
-      </>
+
+
+            </>
     )
-}
 
+    }
 export default Contact
+
+
+
+

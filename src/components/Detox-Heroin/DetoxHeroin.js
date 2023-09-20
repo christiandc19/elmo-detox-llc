@@ -10,7 +10,7 @@ const DetoxHeroin = () => {
                 <div className="detox-heroin-content">
                     <Fade top>
                     <h1>Heroin Detox</h1>
-                    <h2>20th Street Recovery's Heroin Detox Program</h2>
+                    <h2>Detox Program</h2>
                     </Fade>
             </div>
         </div>

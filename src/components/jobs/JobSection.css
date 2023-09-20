@@ -45,6 +45,14 @@
     text-align: justify;
 }
 
+.job-link a {
+    color: blue;
+}
+
+.job-link a:hover {
+    color: rgb(226, 114, 9);
+}
+
 
 
 @media screen and (max-width:1250px)  {

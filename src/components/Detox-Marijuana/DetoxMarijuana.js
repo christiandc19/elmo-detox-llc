@@ -10,7 +10,7 @@ const DetoxMarijuana = () => {
                 <div className="detox-marijuana-content">
                     <Fade top>
                     <h1>Marijuana Detox</h1>
-                    <h2>20th Street Recovery's Marijuana Detox Program</h2>
+                    <h2>Detox Program</h2>
                     </Fade>
             </div>
         </div>

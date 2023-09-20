@@ -16,7 +16,7 @@ const MHSection = () => {
     <>
 
 <div className="sa-cards-header container">
-                <h1>20TH STREET RECOVERY TREATMENT CENTER OFFERS VARIOUS SUBSTANCE ABUSE PROGRAMS </h1>
+                <h1>Elmo Detox TREATMENT CENTER OFFERS VARIOUS SUBSTANCE ABUSE PROGRAMS </h1>
                 <p>We treat a multitude of substance use disorders. Whether the client is suffering from an alcohol addiction, prescription drug addiction, we can help. </p>
             </div>
             

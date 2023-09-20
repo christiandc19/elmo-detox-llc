@@ -3,14 +3,13 @@
 .benzodiazepines {
     width: 100%;
     height: 70vh;
-    background: rgba(0, 0, 0, 0.575);
     position: relative;
   }
   
   .benzodiazepines:before {
     content: '';
     position: absolute;
-    background: url('../../assets/method-bg.jpg') no-repeat center center/cover;
+    background: url('../../assets/sa-stimulant.jpg') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -24,20 +23,22 @@
 }
 
 .benzodiazepines .benzodiazepines-content {
+    width: 50%;
     display: block;
     position: absolute;
-    top: 50%;
+    top: 35%;
+    left: 5%;
     padding: 1rem;
 }
 
 .benzodiazepines h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: var(--primary-color);
 }
 
 .benzodiazepines h3 {
-    color: white;
+    color: var(--primary-color);
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
@@ -53,4 +54,17 @@
 .benzodiazepines h3 {
     font-size: 1rem;
 }
+
+.benzodiazepines .benzodiazepines-content {
+    width: 60%;
+}
+
+}
+
+@media screen and (max-width:600px) {
+    .benzodiazepines .benzodiazepines-content {
+        width: 100%;
+        top: 70%;
+        left: 5%;
+    }
 }

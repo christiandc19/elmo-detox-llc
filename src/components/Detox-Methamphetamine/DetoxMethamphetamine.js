@@ -9,8 +9,8 @@ const DetoxMethamphetamine = () => {
 
                 <div className="detox-methamphetamine-content">
                     <Fade top>
-                    <h1>Methamphetamine Detox</h1>
-                    <h2>20th Street Recovery's Methamphetamine Detox Program</h2>
+                    <h1>Methamphetamine</h1>
+                    <h2>Detox Program</h2>
                     </Fade>
             </div>
         </div>

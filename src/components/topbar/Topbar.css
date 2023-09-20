@@ -35,7 +35,7 @@
 .topbar .bar-box1 span {
     margin: auto;
     font-size: 1.5rem;
-    color: rgb(30, 141, 185);
+    color: #00497C;
 }
 
 .topbar .bar-box2 {
@@ -48,7 +48,7 @@
 .topbar .bar-box2 span {
     margin: auto;
     font-size: 1.5rem;
-    color: rgb(30, 141, 185);
+    color: #00497C;
 }
 
 
@@ -61,7 +61,7 @@
 .topbar .bar-box3 span {
     margin: auto;
     font-size: 1.5rem;
-    color: rgb(30, 141, 185);
+    color: #00497C;
 }
 
 @media screen and (max-width: 1200px) {
