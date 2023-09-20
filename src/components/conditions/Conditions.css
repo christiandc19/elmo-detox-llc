@@ -1,0 +1,86 @@
+
+.conditions-bg {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  .conditions-bg:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.03;
+  }
+
+
+.ConditionsLogosContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+
+.conditions-item {
+    text-align: center;
+    padding: 1rem 0;
+    margin: none;
+}
+
+.conditions-btn button {
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(18, 158, 177);
+    font-size: .7rem;
+    padding: .5rem ;
+}
+
+.conditions-btn button:hover {
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(19, 190, 209);
+    font-weight: 300;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+.condition-icons-header {
+    text-align: center;
+    padding: 1rem;
+}
+
+.condition-icons-header h1 {
+    padding: 1rem;
+    color: rgb(65, 66, 66);
+}
+
+
+.conditions-icons p {
+    background-color: rgb(77, 78, 78);
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+/* .conditions-icons p:hover {
+    background-color: rgb(58, 157, 187);
+    padding: 1rem;
+    margin-bottom: -3rem;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+} */

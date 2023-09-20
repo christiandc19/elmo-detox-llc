@@ -1,7 +1,8 @@
 import React from 'react'
-import './Jobs.css'
 import Fade from 'react-reveal/Fade';
+import './Jobs.css'
 import JobSection from '../../components/jobs/JobSection'
+
 import Contact2 from '../contact/Contact2'
 
 const Jobs = () => {

@@ -1,69 +1,77 @@
 import React from 'react'
 import './Whoweare.css'
-import { Link } from 'react-router-dom';
-import { TbNurse } from 'react-icons/tb';
-import { BsHeadphones } from 'react-icons/bs';
-import { MdWorkOutline } from 'react-icons/md';
+import Fade from 'react-reveal/Fade';
+import { FaCheck } from 'react-icons/fa';
 
-import { Link as LinkRoll } from 'react-scroll'
+import Whoweare1 from '../../assets/slider5.png'
 
 const Whoweare = () => {
   return (
 <>
 
-<div className='wwa'>
-    <div className='wwa-header'>
-        <h1>Keep your sobriety first to make it last.</h1>
-        <p>
-            At Elmo Detox Center, we provide safe and comforable medical detox <br /> services for those struggling with addiction. 
-        </p>
-    </div>
+{/* WRAP 1 */}
+
+    <div className='wrap1'>
 
 
-<div className='wwa-cards'>
-    <div className='wwa-cards-contents'>
-        <div className='card1 card'>
-            <div className='card-content'>
-                <TbNurse className='card-icon1'/>
-                <h1>Substance Abuse Programs</h1>
-                <p>Treatment options for a multitude of substance use disorders. Whether you suffer from alcohol, prescription drugs, or other substance abuse disorders, find better healing with us.</p>
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                <Link to="/substance-abuse">
-                    <button>Learn More</button>
-                </Link>
-                </LinkRoll>
+        <Fade right>
+            <div className="left">
+                <h3>WHY CHOOSE US</h3>
+                <h1>Focusing on you, with the best therapeutic care.</h1>
+                <p> 
+                <ul>
+                    <li>
+                        <FaCheck className='star'/> DEDICATED STAFF.
+                        The medical professionals on our team are completely dedicated to your recovery.
+
+
+                    </li><br />
+                    <li>
+                        <FaCheck className='star'/> PROVEN METHODS. Our treatment methods are solely based on proven research and science-based evidence.
+
+
+                    </li><br />
+                    <li>
+                        <FaCheck className='star'/> 24/7 SUPPORT. Guidance and support are always in reach. We provide care for you whenever needed.
+
+
+                    </li><br />
+                </ul>
+                </p>
             </div>
-        </div>
+        </Fade>
 
-        <div className='card2 card'>
-            <div className='card-content'>
-                <BsHeadphones className='card-icon2'/>
-                <h1>Free Consultation</h1>
-                <p>Guidance and support are always in reach. We provide care for you whenever needed.</p>
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                <Link to="/contact">
-                    <button>Contact Us</button>
-                </Link>
-                </LinkRoll>
-            </div>        
-        </div>
+        <Fade left>
+            <div className="right">
+                <img src={Whoweare1}  alt="Conselling Session with a patient" loading="lazy" />
+            </div>
+        </Fade>
 
 
-        <div className='card3 card'>
-            <div className='card-content'>
-                <MdWorkOutline className='card-icon3'/>
-                <h1>Employment Assistance</h1>
-                <p>Our most unique feature sets you up with interview clothes, interview skills, resume assistance, and all the resources you need to get a job with a great company.</p>
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                <Link to="/jobs">
-                    <button>Learn More</button>
-                </Link>
-                </LinkRoll>
-            </div>      
+
+    </div>
+
+
+{/* WRAP 2 */}
+
+    <div className='wrap2'>
+
+    <div className="wrap2-container">
+        <Fade right>
+            <div className="content">
+                <p>
+                <h1>A healthier choice for a healthier you. </h1>
+                </p><br />
+                <p>
+ 
+                We have staff on site 24 hours a day to monitor and help you through this difficult process. To learn more about treatment, contact us today.
+                </p>
+                </div>
+                
+        </Fade>
         </div>
     </div>
-</div>
-</div>
+
 
 </>
   )

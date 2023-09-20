@@ -1,8 +1,8 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
+
 import ContactForm from "./ContactForm";
 import './Contact.css'
-
 
 const Contact = () => {
 
@@ -15,7 +15,7 @@ const Contact = () => {
                     <h1>HAVE SOME QUESTIONS?</h1>
             </Fade>
             <Fade right>
-                  <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week. </p>
+                  <p>Our Addiction and Recovery Support team is available to assist you. </p>
             </Fade>
             </div>
      </div>

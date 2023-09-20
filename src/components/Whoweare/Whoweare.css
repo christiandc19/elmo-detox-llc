@@ -1,190 +1,161 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Hebrew:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-.wwa {
-    width: 100%;
-    height: auto;
-    padding: 3rem 0;
-}
+/* WRAP 1 */
 
-.wwa-header {
-    text-align: center;
-    padding: 3rem 0;
-}
-
-.wwa-header h1 {
-    font-size: 2.5rem;
-    padding: 1rem;
-    color: black;
-    letter-spacing: 2px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.wwa-header p {
-    margin: auto;
-    font-size: 18px;
-    letter-spacing: 2px;
-    padding: 1rem;
-    font-family: 'Roboto', sans-serif;
-}
-
-/* cards */
-
-.wwa-cards-contents {
+.wrap1  {
+    background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
     display: flex;
+    flex-wrap: wrap ;
     justify-content: center;
+    position: relative;
+    padding: 5rem 0 0 0;
+    width: 100vw;
 }
 
-.card-content {
-    top: 10%;
+/* .wrap1 .right {
+    width: 50%;
+    height: 900px;
+    background: url('../../assets//slider5.png') no-repeat center center/cover;
+
+} */
+
+ .wrap1 .left {
+    width: 50%;
+    margin: auto;
+    padding: 3rem;
+}
+
+.wrap1 .left h1{
+    font-size: 4rem;
+}
+
+.wrap1 .right img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.wrap1 .left p {
+    font-size: 18px;
+    color: rgb(31, 30, 30);
+    padding: 1rem;
+}
+
+.wrap1 .left span {
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -1px;
+}
+
+
+
+
+/* WRAP 2 */
+
+.wrap2 {
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(15, 15, 15, 0.555);  }
+  
+  .wrap2:before {
+    content: '';
     position: absolute;
+    background: url('../../assets/wrap2.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+
+.wrap2-container {
+    top: 30%;
+    position: relative;
+    align-items: center;
     text-align: center;
     width: 100%;
 }
 
-.card-icon1, .card-icon3 {
-    font-size: 6rem;
-    color: rgb(139, 85, 4);
-    padding: 1rem 0;
-}
+  .wrap2 .content {
+    top: 20%;
+  }
 
-.card-icon2 {
-    font-size: 6rem;
-    color: rgb(255, 255, 255);
-    padding: 1rem 0;
-}
-
-.wwa-cards button {
-    background-color: rgb(161, 101, 61);
+.wrap2 h1 {
     color: white;
-    border-radius: 5px;
+    font-size: 4rem;
+    text-align: center;
+    padding: 1rem;
 }
 
-/*  card 1 */
-
-.card1 {
-    margin-top: 1.5rem;
-    width: 450px;
-    height: 400px;
-    position: relative;
-    justify-content: center;
-    background-color: rgba(241, 237, 232, 0.980);
-  }
-  
-  .card1:before {
-    content: '';
-    position: absolute;
-    background: url('../../assets/sa-icon.png') no-repeat center top/cover;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-  }
-
-.card1 h1 {
-    font-size: 1.5rem;
-    font-family: 'Noto Serif Hebrew', serif;
-}
-
-.card1 p {
-    padding: 2rem;
-    font-family: 'Roboto', sans-serif;
-}
-
-.card1 h5 {
-    color: rgb(139, 85, 4);
-    letter-spacing: 2px;
-    cursor: pointer;
-}
-
-/*  card 2 */
-
-.card2 {
-    width: 450px;
-    height: 450px;
-    position: relative;
-    justify-content: center;
-    background-color: rgba(143, 101, 82, 0.98);
-  }
-  
-  .card2:before {
-    content: '';
-    position: absolute;
-    background: url('../../assets/sa-icon.png') no-repeat center top/cover;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-  }
-
-.card2 h1 {
-    font-size: 1.5rem;
-    font-family: 'Noto Serif Hebrew', serif;
+.wrap2 p {
+    text-align: center;
     color: white;
+    padding: 0 1rem;
 }
 
-.card2 p {
-    padding: 2rem;
-    font-family: 'Roboto', sans-serif;
-    color: white;
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:1200px) {
+
+
+    .wrap2 .left {
+        width: 900px;
+
+    }
 }
-
-.card2 h5 {
-    letter-spacing: 2px;
-    color: white;
-}
-
-/*  card 3 */
-
-.card3 {
-    margin-top: 1.5rem;
-    width: 450px;
-    height: 400px;
-    position: relative;
-    justify-content: center;
-    background-color: rgba(241, 237, 232, 0.980);
-  }
-  
-  .card3:before {
-    content: '';
-    position: absolute;
-    background: url('../../assets/sa-icon.png') no-repeat center top/cover;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-  }
-
-.card3 h1 {
-    font-size: 1.5rem;
-    font-family: 'Noto Serif Hebrew', serif;
-}
-
-.card3 p {
-    padding: 2rem;
-    font-family: 'Roboto', sans-serif;
-}
-
-.card3 h5 {
-    color: rgb(139, 85, 4);
-    letter-spacing: 2px;
-}
-
-.card h5:hover {
-    color: rgb(0, 0, 0);
-}
-
 
 @media screen and (max-width:940px) {
-    
-    .wwa-cards-contents {
-        flex-wrap: wrap;
+
+    .wrap1 .left p {
+        font-size: 14px;
     }
 
-    .card3 {
-        margin-top: 0;
+    .Whoweare-icon img {
+        width: 50px;
+        height: 50px;
     }
 
-    .card {
+    .left .Whoweare-icon{
         width: 100%;
-        height: 350px;
     }
+
+    
+
+    .wrap1 .left h1{
+        font-size: 2.5rem;
+    }
+    
+    .wrap1 .left p {
+        font-size: 16px;
+        text-align: left;
+    }
+
+
 
 }
+
+@media screen and (max-width:800px) {
+    .wrap1 .right {
+        width: 100%;
+        height: 500px;
+    }
+    
+     .wrap1 .left {
+        width: 100%;
+    }
+
+    .wrap2 h1 {
+        font-size: 2rem;
+    }
+}
+
+

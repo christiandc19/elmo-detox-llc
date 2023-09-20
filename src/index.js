@@ -5,8 +5,7 @@ import App from './App';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
-import TreatmentPage from './routes/TreatmentPage'
-import MissionPage from './routes/MissionPage'
+import DetoxPage from './routes/DetoxPage'
 import AboutPage from './routes/AboutPage'
 import ResidencePage from './routes/ResidencePage'
 import InsurancePage from './routes/InsurancePage'
@@ -24,17 +23,30 @@ import OPIOID from './routes/OPIOID';
 import OXYCODONE from './routes/OXYCODONE';
 import PRESCRIPTIONS from './routes/PRESCRIPTIONS';
 import XANAX from './routes/XANAX';
+import BENZODIAZEPINES from './routes/BENZODIAZEPINES';
+import STIMULANT from './routes/STIMULANT';
 
-import SA from './routes/SA';
+import MAT from './routes/MAT';
+import ITA from './routes/ITA';
+
+
+import DetoxHeroin from './routes/DetoxHeroin';
+import DetoxAlcohol from './routes/DetoxAlcohol';
+import DetoxCocaine from './routes/DetoxCocaine';
+import DetoxBenzodiazepines from './routes/DetoxBenzodiazepines';
+import DetoxMethamphetamine  from './routes/DetoxMethamphetamine';
+import DetoxMarijuana  from './routes/DetoxMarijuana';
+
+
 
 import Jobs from './routes/JOBS';
-import Team from './routes/Team';
+import SA from './routes/SA';
 
 
 ReactDOM.render(
   <BrowserRouter basename={window.location.pathname || ''} >
     <Routes>
-      <Route exact path='/' element={<App />} />
+      <Route exact path='/'element={<App />} />
       <Route exact path='/alcohol' element={<ALCOHOL />} />
       <Route exact path='/cocaine' element={<COCAINE />} />
       <Route exact path='/fentanyl' element={<FENTANYL />} />
@@ -47,16 +59,28 @@ ReactDOM.render(
       <Route exact path='/oxycodone' element={<OXYCODONE />} />
       <Route exact path='/prescriptions' element={<PRESCRIPTIONS />} />
       <Route exact path='/xanax' element={<XANAX />} />
+      <Route exact path='/benzodiazepines' element={<BENZODIAZEPINES />} />
+      <Route exact path='/stimulant' element={<STIMULANT />} />
+
+      <Route exact path='/medication-assisted-treatment' element={<MAT />} />
+      <Route exact path='/individualize-treatment-alternatives' element={<ITA />} />
+
+
+      <Route exact path='/detox-heroin' element={<DetoxHeroin />} />
+      <Route exact path='/detox-alcohol' element={<DetoxAlcohol />} />
+      <Route exact path='/detox-cocaine' element={<DetoxCocaine />} />
+      <Route exact path='/detox-benzodiazepines' element={<DetoxBenzodiazepines />} />
+      <Route exact path='/detox-Methamphetamine' element={<DetoxMethamphetamine />} />
+      <Route exact path='/detox-Marijuana' element={<DetoxMarijuana />} />
+
 
 
       <Route exact path='/substance-abuse' element={<SA />} />
 
-      <Route exact path='/jobs' element={<Jobs />} />
-      <Route exact path='/treatment' element={<TreatmentPage />} />
-      <Route exact path='/mission' element={<MissionPage />} />
 
+      <Route exact path='/jobs' element={<Jobs />} />
+      <Route exact path='/detox' element={<DetoxPage />} />
       <Route exact path='/about-us' element={<AboutPage />} />
-      <Route exact path='/team' element={<Team />} />
 
       <Route exact path='/residence' element={<ResidencePage />} />
       <Route exact path='/insurance' element={<InsurancePage />} />

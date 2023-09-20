@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+.card-wrap
+{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items:space-around;
+  gap: 2rem;
+}
+
+
+.cards-header .cards-header-left {
+  padding: 1rem;
+}
+
+.cards-header .cards-header-left p {
+  font-size: 14px;
+}
+
+.cards-header .cards-header-left h3 {
+  font-size: 1.5rem;
+}
+
+.cards-header .cards-header-left span{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 1.8rem;
+  color: rgb(207, 95, 4);
+}
+
+.main-cards-header h1 {
+  padding: 3rem 1rem 0 1rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: rgb(65, 66, 66);
+}
+
+.main-cards-header h2{
+  padding: 0 1rem 0 1rem;
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.5rem;
+  color: rgb(207, 95, 4);
+}
+
+.card {
+  width: 300px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h5 {
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+ 
+.card-btn button {
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.card-btn button:hover {
+  background-color: rgb(211, 120, 16);
+  border: none;
+  border-radius: 5px;
+  color: black;
+}
+
+.cards-header {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    text-align: justify;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.cards-header-left {
+  width: 300px;
+  text-align: left;
+  margin: auto 0;
+}
+
+.cards-header-left h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: rgb(65, 66, 66);
+}
+
+.cards-header h1 {
+  font-size: 1.5rem;
+  text-align: center;
+    margin: 1rem auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cards-header p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+
+  @media (max-width: 940px) {
+
+
+    .card-wrap {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+
+    .cards-header-left {
+      width: 100%;
+      text-align: center;
+    }
+
+    .card h5 {
+      font-size: 1rem;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    
+    
+    .card-btn {
+      text-align: center;
+    }
+
+  }
+
+
+
+
+
+
+
+

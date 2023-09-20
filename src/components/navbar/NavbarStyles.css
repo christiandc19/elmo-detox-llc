@@ -1,38 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
 
 .navbar {
     width: 100%;
     height: auto;
     position: absolute;
     z-index: 10;
-    padding: 1rem .5rem;
-    background: #13121231;
+    background: #00497C;
+    padding: 1rem 0;
 }
 
 .navbar .navbar-container {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .navbar-logo {
-  width: 280px;
-  z-index: 3;
+  width: 250px;
+  padding: 1rem;
+  z-index: 2;
 }
 
 .navbar-logo img {
   width: 100%;
 }
 
-.navbar-logo h1 {
-  padding: 1rem;
-  color: white;
-}
-
 .navbar .icon {
   font-size: 1.4rem;
-  color: rgb(255, 255, 255);
+  color: var(--primary-color);
 }
 
 .navbar .logo .icon {
@@ -50,82 +47,72 @@
     height: 100%;
     align-items: center;
     display: flex;
-    /* padding: 2rem 0; */
 }
 
-.navbar ul {
-  margin: auto 0;
+.navbar li {
+    width: max-content;
+    font-family: 'Montserrat', sans-serif;
+    padding: .3rem 0;
 }
 
 .navbar li a {
-    font-size: 13px;
-    width: max-content;
-    padding: .5rem 1rem;
-    color: #eee6e6;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    border-right: 1px solid rgba(255, 255, 255, 0.247);
-    padding: .5rem 1rem;
-    font-weight: 500;
-}
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
 
-
-a {
-  text-decoration: none;
-  color: white;
-  font-weight: 300;
-  font-family: 'Montserrat', sans-serif;
-
-}
-
-a:hover {
-  color: rgb(233, 162, 10);
 }
 
   .menu-item .sub__menus li a {
-    color: #353535;
-    font-size: 13px;
-    padding: -1rem ;
+    color: #f5eeee;
+    font-size: 14px;
+    padding: .5rem;
   }
 
   .menu-item .sub__menus li a:hover {
     color: rgb(255, 123, 0) !important;
   }
 
+
+  .navbar .hide {
+    display: none;
+  }
+
 /* -----------------------------------------------------> SUB MENU */
 .sub__menus {
     position: absolute;
     display: none;
-    background: white;
-    border: 1px solid lavender;
-    border-radius: 5px;
-    width: max-content;
-    left: -17px;
-    padding: 2px 0 0 0;
-    margin-top: 6px;
+    background: var(--primary-color);
+    border: none;
+    width: auto;
+    margin-top: 0;
     z-index: 1000;
-    padding: .5rem 1rem;
+    padding: .7rem 0;
+    left: 5%;
   }
 
   /* -----------------------------------------------------> DROPDOWN ARROW */
   .sub__menus__arrows {
     position: relative;
-
   }
 
   .sub__menus__arrows svg, .sub__menus__arrows__full svg {
     padding-top: 0px;
     position: absolute;
-    top: 5px;
+    top: 8px;
   }
 
 
   
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1200px) {
     .navbar .hamburger {
         display: block;
         z-index: 15;
     }
+    
+    .navbar {
+      background: rgb(255, 255, 255);
+  }
+
 
     .navbar .nav-menu {
         position: absolute;
@@ -135,30 +122,16 @@ a:hover {
         top: 0;
         left:-100%;
         justify-content: center;
-        background: var(--primary-color);
         transition: 0.5s ease-in;
+        background-color: black;
     }
-
-    .navbar li a {
-      border-right: none;
-  }
-
-    .sub__menus__arrows svg, .sub__menus__arrows__full svg {
-      padding-top: 0px;
-      position: absolute;
-      top: 27px;
-      margin-left: .8rem;
-    }
-
-    .navbar li {
-      font-size: 20px;
-      border-right: none;
-      padding: 0;
-  }
-
 
     .navbar .active {
         left: 0;
+    }
+
+    .navbar li {
+        font-size: 1rem;
     }
 
     .navbar button {
@@ -167,31 +140,31 @@ a:hover {
 
     .menu-item .sub__menus li a {
         font-size: 14px;
+        text-align: left;
       }
 
       li .submenu-header {
         font-size: 14px;
       }
 
-      #submenu-item li {
-        padding: .2rem 1rem;
-      }
-
       .navbar .navbar-container {
         justify-content: space-between;
       }
 
-      
+      .navbar-logo {
+        width: 200px;
+      }
+
+      .navbar .hide {
+        display: block;
+      }
+    
+      .navbar .show {
+        display: none;
+      }
+
 }
 
-
-@media screen and (max-width: 700px) {
-  .navbar-logo {
-    width: 200px;
-    margin: auto 0;
-  }
-
-}
 
 
 
