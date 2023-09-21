@@ -22,9 +22,10 @@
     line-height: 15px;
   }
 
-  .text h5, .text2 h5 {
+  .text h1, .text2 h1 {
     color: var(--primary-color);
     padding: .5rem 0;
+    font-size: 1.2rem;
   }
 
 /* ------------ FLEX 1 ------------------ */
