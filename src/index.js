@@ -7,7 +7,6 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 import DetoxPage from './routes/DetoxPage'
 import AboutPage from './routes/AboutPage'
-import ResidencePage from './routes/ResidencePage'
 import InsurancePage from './routes/InsurancePage'
 import ContactPage from './routes/ContactPage'
 
@@ -82,7 +81,6 @@ ReactDOM.render(
       <Route exact path='/detox' element={<DetoxPage />} />
       <Route exact path='/about-us' element={<AboutPage />} />
 
-      <Route exact path='/residence' element={<ResidencePage />} />
       <Route exact path='/insurance' element={<InsurancePage />} />
       <Route exact path='/contact' element={<ContactPage />} />
     </Routes>

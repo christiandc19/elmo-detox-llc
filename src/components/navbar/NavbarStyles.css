@@ -112,8 +112,8 @@
     
     .navbar {
       background: rgb(255, 255, 255);
+      padding: 0;
   }
-
 
     .navbar .nav-menu {
         position: absolute;
@@ -124,7 +124,14 @@
         left:-100%;
         justify-content: center;
         transition: 0.5s ease-in;
-        background-color: black;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .navbar li a {
+      color: var(--primary-color);
+      font-size: 1rem;
+      padding: 1rem 1.5rem;
+  
     }
 
     .navbar .active {
@@ -153,7 +160,7 @@
       }
 
       .navbar-logo {
-        width: 200px;
+        width: 250px;
       }
 
       .navbar .hide {

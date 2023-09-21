@@ -1,76 +1,105 @@
-import React from 'react'
-import './Cards.css'
-import { Link } from 'react-router-dom'
-import { Link as LinkRoll } from 'react-scroll'
+import React from "react";
+import "./Cards.css";
+import Fade from 'react-reveal/Fade';
 
-import Card1 from '../../assets/card1.jpg'
-import Card2 from '../../assets/card2.jpg'
+import { Link } from "react-router-dom";
+import { Link as LinkRoll } from "react-scroll";
 
+import Card1 from "../../assets/card1.jpg";
+import Card2 from "../../assets/card2.jpg";
+// import Card3 from "../../assets/card3.jpg";
+import Card4 from "../../assets/card4.jpg";
 
 const Cards = () => {
   return (
     <>
+    <div className="section-bg">
+      <div id="cards">
+        <div className="main-cards-header container">
+          <h1>Detox Program Options and Available Services</h1>
+          <p>Our compassionate staff utilizes established medical treatments to decrease withdrawal effects in an empathetic environment. In the meantime, you’ll receive behavioral health care from experienced counselors to boost your chances for an effective recovery.</p>
+        </div>
 
-    <div className='main-cards-header container'>
-      <h1>WELCOME TO ELMO DETOX</h1>
-      <h2>“Set yourself on the right path moving forward.”</h2>
-
-    </div>
 
 
+      <div className="cards-flex container">
 
-            <div className="cards-header container">
-
-            <div class="card-wrap">
-                <div className='cards-header-left'>
-                  <h3>Elmo Detox makes getting treatment <span>possible.</span></h3><br/>
-                  <p>At Elmo Detox Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
-              </div>
-            
-
-              <div class="card">
-              <img src={Card1} alt="Mental Health" loading="lazy"/>
-              <div class="card-body">
-                <h5 class="card-title">ADDICTION TREATMENT</h5>
-                <p class="card-text">Depending on your needs, we offer treatment for co-occurring disorders that can address both mental health and addiction disorders at the same time.</p>
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+      <Fade left>
+        <div className="services-card">
+          <img src={Card1} alt="Mental Health" loading="lazy" />
+            <div className="card-body">
+              <h1 className="card-title">Addiction Treatment</h1>
+              <p className="card-text"> This intensive, structured program provides a comprehensive level of care for individuals seeking a dedicated and supportive environment on their path to recovery from mental health and addiction challenges.</p>
+                <div className="services-card-btn">
+                  <LinkRoll activeClass="active" to="top" spy={true}smooth={true} duration={500}>
                     <Link to="/substance-abuse">
-                        <div className='card-btn'>
-                        <button>Learn More</button>
-                        </div>
+                      <button>Learn More</button>
                     </Link>
-                </LinkRoll>
-              </div>
+                  </LinkRoll>
+                </div>
             </div>
+        </div>
+      </Fade>
+
+      <Fade top>
+        <div className="services-card">
+          <img src={Card2} alt="Mental Health" loading="lazy" />
+            <div className="card-body">
+              <h1 className="card-title">Detox Programs</h1>
+              <p className="card-text"> Elmo Detox lets you taper in a safe, structured manner. We use evidence-based medical practices for controlling withdrawal symptoms and watch over you on a 24-7 basis. </p>
+                <div className="services-card-btn">
+                  <LinkRoll activeClass="active" to="top" spy={true}smooth={true} duration={500}>
+                    <Link to="/detox">
+                      <button>Learn More</button>
+                    </Link>
+                  </LinkRoll>
+                </div>
+            </div>
+        </div>
+      </Fade>
+{/* 
+      <Fade right>
+        <div className="services-card">
+          <img src={Card3} alt="Mental Health" loading="lazy" />
+            <div className="card-body">
+              <h1 className="card-title">Substance Abuse</h1>
+              <p className="card-text"> Our Outpatient Programs offers a flexible and supportive approach to treatment for individuals seeking to overcome mental health and addiction challenges.</p>
+                <div className="services-card-btn">
+                  <LinkRoll activeClass="active" to="top" spy={true}smooth={true} duration={500}>
+                    <Link to="/substance-abuse">
+                      <button>Learn More</button>
+                    </Link>
+                  </LinkRoll>
+                </div>
+            </div>
+        </div>
+      </Fade> */}
 
 
-            <div class="card">
-              <img src={Card2} alt="Mental Health" loading="lazy"/>
-              <div class="card-body">
-                <h5 class="card-title">JOB ASSISTANCE</h5>
-                <p class="card-text">We offer a variety of employment tools and resources to help you land on your feet and get hired at a great company in recovery.</p>
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+      <Fade top>
+        <div className="services-card">
+          <img src={Card4} alt="Mental Health" loading="lazy" />
+            <div className="card-body">
+              <h1 className="card-title">Job Assistance</h1>
+              <p className="card-text"> Many individuals in recovery face unique challenges when it comes to securing and maintaining employment, but there are resources and strategies available to help them on their path to a fulfilling career.</p>
+                <div className="services-card-btn">
+                  <LinkRoll activeClass="active" to="top" spy={true}smooth={true} duration={500}>
                     <Link to="/jobs">
-                        <div className='card-btn'>
-                        <button>Learn More</button>
-                        </div>
+                      <button>Learn More</button>
                     </Link>
-                </LinkRoll>
-              </div>
+                  </LinkRoll>
+                </div>
             </div>
+        </div>
+      </Fade>
+
+
+
+      </div>
+    </div>
   </div>
-</div>
     </>
-  )
-}
+  );
+};
 
-export default Cards
-
-
-
-
-
-
-
-
-
+export default Cards;

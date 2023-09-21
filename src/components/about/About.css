@@ -27,7 +27,7 @@
 .about h1 {
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
-    color: rgb(20, 20, 20);
+    color: var(--primary-color);
 }
 
 

@@ -8,15 +8,16 @@ import { AiOutlinePhone } from "react-icons/ai";
 
 const Topbar = () => {
   return (
-    <div className="topbar">
+    <div className="topbar" name='top'>
       <div className="topbar-content container">
-        <div className="topbar-logo" name="top">
+        
+        <div className="topbar-logo topbar-hide" >
           <Link to="/">
             <img src={logo} alt="Palm Springs Rehab Logo" loading="lazy" />
           </Link>
         </div>
 
-        <div className="address bar-box1 ">
+        <div className="address bar-box1 topbar-hide">
           <span>
             <MdLocationPin />
           </span>

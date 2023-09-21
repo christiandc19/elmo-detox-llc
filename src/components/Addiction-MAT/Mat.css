@@ -36,11 +36,11 @@
 .mat h1 {
     font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
-    color: rgb(19, 18, 18);
+    color: var(--primary-color);
 }
 
 .mat h3 {
-    color: rgb(19, 18, 18);
+    color: var(--primary-color);
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
 }

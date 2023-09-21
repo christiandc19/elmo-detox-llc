@@ -10,7 +10,6 @@
   .insurance:before {
     content: '';
     position: absolute;
-    /* background: url('../../assets/menu-bg-insurance.jpg') no-repeat center center/cover; */
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -28,8 +27,13 @@
     font-family: 'Montserrat', sans-serif;
     color: var(--primary-color);
     text-align: center;
+    padding: .5rem 0;
 }
 
+.insurance p {
+    color: rgb(31, 29, 29);
+    text-align: center;
+}
 
 .insurance-caption {
     width: 40%;

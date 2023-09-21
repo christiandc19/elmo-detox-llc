@@ -20,7 +20,6 @@ const Contact = () => {
                         <Fade top>
                         <div className="contact-caption">
                             <h1>HAVE SOME QUESTIONS?</h1>
-                            <p>Our Addiction and Recovery Support team is available to assist you.</p>
                         </div>
                         </Fade>
                         </div>

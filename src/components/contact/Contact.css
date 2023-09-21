@@ -29,11 +29,6 @@
     text-align: center;
 }
 
-.contact p {
-    text-align: center;
-}
-
-
 
 .contact-caption {
     width: 40%;
@@ -69,7 +64,7 @@
 }
 
 .contact {
-    width: 90%;
+    width: 100%;
 }
 
 .contact-caption {

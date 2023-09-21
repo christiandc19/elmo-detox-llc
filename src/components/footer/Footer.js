@@ -18,7 +18,6 @@ const Footer = () => {
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <BsFillArrowUpCircleFill className='footer-icon' />
                     </LinkRoll>
-
                 </div>
                 <div className="col-container">
 
@@ -42,11 +41,11 @@ const Footer = () => {
                     <div className="col">
                         <h3>SERVICES</h3>
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/detox'><p>Programs</p></Link>
+                        <Link to='/substance-abuse'><p>Addiction Treatment</p></Link>
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/substance-abuse'><p>Substance Abuse Program</p></Link>
+                        <Link to='/detox'><p>Detox Programs</p></Link>
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
@@ -56,9 +55,9 @@ const Footer = () => {
 
                     <div className="col">
                         <h3>Location</h3>
-                        <p>1045 20th St, Los Angeles CA 90011</p>
-                        <p>info@20thstreetdetox.biz</p>
-                        <p> +1 (323) 579-2196</p>
+                        <p>4642 St Elmo Dr, Los Angeles, CA, 90019</p>
+                        <p>Info@ElmoDetox.com</p>
+                        <p> +1 (323) 443-9939</p>
                     </div>
 
                 </div>

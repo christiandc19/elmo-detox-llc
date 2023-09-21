@@ -56,20 +56,20 @@ const ContactForm = () => {
         <div class="address details">
           <i class="fas fa-map-marker-alt"></i>
           <div class="topic">Address</div><br/>
-          <div class="text-one">1045 20th St,</div>
-          <div class="text-two">Los Angeles CA 90011</div>
+          <div class="text-one">4642 St Elmo Dr, </div>
+          <div class="text-two">Los Angeles, CA, 90019</div>
         </div>
 
         <div class="phone details">
           <i class="fas fa-phone-alt"></i>
           <div class="topic">Phone</div><br/>
-          <div class="text-one"><a href="tel:3235792196"> +1 (323) 579-2196</a></div>
+          <div class="text-one"><a href="tel:3235792196"> +1 (323) 443-9939</a></div>
         </div>
 
         <div class="email details">
           <i class="fas fa-envelope"></i>
           <div class="topic">Email</div><br/>
-          <div class="text-one">info@20thstreetdetox.biz</div>
+          <div class="text-one">Info@ElmoDetox.com</div>
         </div>
       </div>
 

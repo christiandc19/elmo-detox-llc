@@ -86,17 +86,17 @@ const ContactForm = () => {
     
     <div class="get_form_inner2">
             <h2>CALL US</h2>
-            <p><AiOutlinePhone /><a href="tel:3235792196"> +1 (323) 579-2196</a></p>
+            <p><AiOutlinePhone /><a href="tel:3234439939"> +1 (323) 443-9939</a></p>
     </div>
 
     <div class="get_form_inner2">
             <h2>EMAIL</h2>
-            <p><AiOutlineMail /> info@20thstreetdetox.biz </p><br />
+            <p><AiOutlineMail /> Info@ElmoDetox.com </p><br />
     </div>
 
     <div class="get_form_inner2">
             <h2>LOCATION</h2>
-            <p><BsFillPinMapFill /> 1045 20th St, Los Angeles CA 90011 </p>
+            <p><BsFillPinMapFill /> 4642 St Elmo Dr, Los Angeles, CA, 90019 </p>
     </div>
 
 </div>

@@ -1,10 +1,6 @@
 import React from 'react'
 import './AboutSection.css'
-
 import About from '../../assets/about-section-1.jpg'
-import { Link } from 'react-router-dom'
-import { Link as LinkRoll } from 'react-scroll'
-
 
 const AboutSection = () => {
     return (
@@ -21,15 +17,7 @@ const AboutSection = () => {
                     <h1>Contact Us Today</h1>
                     <p>If you or a loved one are ready to take the first step towards a brighter, substance-free future, we invite you to reach out to us. Our compassionate team is here to answer any questions and guide you through the admissions process.<br/><br/>Reclaim your life from substance abuse with the help of Elmo Detox. Together, we can build a foundation for lasting recovery and a brighter tomorrow.</p>
 
-                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                    <Link to="/contact">
 
-                        <div className="about-btn">
-                            <button>CONTACT US</button>
-                        </div>
-                    
-                    </Link>
-                    </LinkRoll>
 
 
                 </div>
