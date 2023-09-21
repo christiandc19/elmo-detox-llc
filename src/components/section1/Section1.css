@@ -30,10 +30,10 @@
 }
 
 .section1-header h2 {
-    font-size: 1.2rem;
+    font-size: 2rem;
     color: var(--primary-color);
     font-family: 'Instrument Serif', serif;
-    padding: .5rem 0;
+    padding: 1rem 0;
 }
 
 .section1-content {
@@ -72,7 +72,7 @@
 
 .section1 h1 {
     text-transform: uppercase;
-    color: #adadad;
+    color: #312f2f;
     font-size: 1rem;
     letter-spacing: 5px; 
     padding: .5rem 0;
@@ -103,6 +103,10 @@
 
     .section1 hr {
         display: none;
+    }
+
+    .section1-header h2 {
+        font-size: 1.5rem;
     }
 
 }

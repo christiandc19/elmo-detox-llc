@@ -24,7 +24,7 @@ const Cards = () => {
 
       <div className="cards-flex container">
 
-      <Fade left>
+      <Fade top>
         <div className="services-card">
           <img src={Card1} alt="Mental Health" loading="lazy" />
             <div className="card-body">
@@ -57,24 +57,6 @@ const Cards = () => {
             </div>
         </div>
       </Fade>
-{/* 
-      <Fade right>
-        <div className="services-card">
-          <img src={Card3} alt="Mental Health" loading="lazy" />
-            <div className="card-body">
-              <h1 className="card-title">Substance Abuse</h1>
-              <p className="card-text"> Our Outpatient Programs offers a flexible and supportive approach to treatment for individuals seeking to overcome mental health and addiction challenges.</p>
-                <div className="services-card-btn">
-                  <LinkRoll activeClass="active" to="top" spy={true}smooth={true} duration={500}>
-                    <Link to="/substance-abuse">
-                      <button>Learn More</button>
-                    </Link>
-                  </LinkRoll>
-                </div>
-            </div>
-        </div>
-      </Fade> */}
-
 
       <Fade top>
         <div className="services-card">

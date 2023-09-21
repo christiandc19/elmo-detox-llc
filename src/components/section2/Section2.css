@@ -23,7 +23,7 @@
   }
 
   .text h5, .text2 h5 {
-    color: rgb(228, 198, 30);
+    color: var(--primary-color);
     padding: .5rem 0;
   }
 
