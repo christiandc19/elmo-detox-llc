@@ -88,17 +88,6 @@ const Navbar = () => {
                     </li>
 
 
-
-                    {/* <div className="navbar-logo show">
-                        <Link to='/'>
-                        <img src={logo} alt="Elmo Detox Logo" loading="lazy"/>
-                        </Link>
-                    </div> */}
-
-
-
-
-                    {/* <li><Link to='/detox'>Detox</Link> </li> */}
                     <li><Link to='/about-us'>About Us</Link> </li>
                     {/* <li><Link to='/residence'>Residence</Link> </li> */}
                     <li><Link to='/jobs'>Jobs Program</Link> </li>
