@@ -50,6 +50,7 @@
 
   .section2-left-content .number img{
     width: 100%;
+    height: auto;
   }
 
   .section2-left-content .text {
@@ -66,6 +67,7 @@
 
   .section2-left-content .circle img {
     width: 100%;
+    height: auto;
   }
 
 
@@ -99,6 +101,7 @@
 
   .section2-right-content .number img{
     width: 100%;
+    height: auto;
   }
 
   .section2-right-content .text {
@@ -115,6 +118,7 @@
 
   .section2-right-content .circle img {
     width: 100%;
+    height: auto;
   }
 
 

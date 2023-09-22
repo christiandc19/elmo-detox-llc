@@ -54,7 +54,7 @@ const ContactForm = () => {
       <div class="footer_get_touch_inner">
           <div class="get_form_inner">
             <div class="get_form_inner_text">
-              <h3>Get In Touch</h3>
+              <h1>Get In Touch</h1>
               <p><i>We'll keep your contact information strictly confidential.</i></p><br/>
             </div>
             <form ref={form} onSubmit={sendEmail}>

@@ -24,7 +24,7 @@ const Cards = () => {
 
       <div className="cards-flex container">
 
-      <Fade top>
+      <Fade bottom>
         <div className="services-card">
           <img src={Card1} alt="Mental Health" loading="lazy" />
             <div className="card-body">
@@ -41,9 +41,9 @@ const Cards = () => {
         </div>
       </Fade>
 
-      <Fade top>
+      <Fade bottom>
         <div className="services-card">
-          <img src={Card2} alt="Mental Health" loading="lazy" />
+          <img src={Card2} alt="Detox Programs" loading="lazy" />
             <div className="card-body">
               <h1 className="card-title">Detox Programs</h1>
               <p className="card-text"> Elmo Detox lets you taper in a safe, structured manner. We use evidence-based medical practices for controlling withdrawal symptoms and watch over you on a 24-7 basis. </p>
@@ -58,9 +58,9 @@ const Cards = () => {
         </div>
       </Fade>
 
-      <Fade top>
+      <Fade bottom>
         <div className="services-card">
-          <img src={Card4} alt="Mental Health" loading="lazy" />
+          <img src={Card4} alt="Job Assistance" loading="lazy" />
             <div className="card-body">
               <h1 className="card-title">Job Assistance</h1>
               <p className="card-text"> Many individuals in recovery face unique challenges when it comes to securing and maintaining employment, but there are resources and strategies available to help them on their path to a fulfilling career.</p>
