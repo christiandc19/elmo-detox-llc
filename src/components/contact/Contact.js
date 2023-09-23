@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 
 import './Contact.css'
 
-import Team from "../../assets/team.png";
+import Team from "../../assets/team.webp";
 
 
 const Contact = () => {

@@ -9,7 +9,7 @@
   .prescriptions:before {
     content: '';
     position: absolute;
-    background: url('../../assets/sa-prescriptions.jpg') no-repeat center center/cover;
+    background: url('../../assets/sa-prescriptions.webp') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;

@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 
 import './Insurance.css'
 
-import family from "../../assets/family.png";
+import family from "../../assets/family.webp";
 
 
 const Insurance = () => {

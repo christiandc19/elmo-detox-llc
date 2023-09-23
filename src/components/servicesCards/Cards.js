@@ -5,10 +5,9 @@ import Fade from 'react-reveal/Fade';
 import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
 
-import Card1 from "../../assets/card1.jpg";
-import Card2 from "../../assets/card2.jpg";
-// import Card3 from "../../assets/card3.jpg";
-import Card4 from "../../assets/card4.jpg";
+import Card1 from "../../assets/card1.webp";
+import Card2 from "../../assets/card2.webp";
+import Card4 from "../../assets/card4.webp";
 
 const Cards = () => {
   return (
