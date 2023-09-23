@@ -6,6 +6,7 @@ const AboutSection = () => {
     return (
         <>
         <div className='about-section container'>
+
             <div className='about-section-content'>
                 <div className='about-section-left'>
                     <h1>About Elmo Detox</h1>
@@ -16,7 +17,6 @@ const AboutSection = () => {
 
                     <h1>Contact Us Today</h1>
                     <p>If you or a loved one are ready to take the first step towards a brighter, substance-free future, we invite you to reach out to us. Our compassionate team is here to answer any questions and guide you through the admissions process.<br/><br/>Reclaim your life from substance abuse with the help of Elmo Detox. Together, we can build a foundation for lasting recovery and a brighter tomorrow.</p>
-
 
 
 

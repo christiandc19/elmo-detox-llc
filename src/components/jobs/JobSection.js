@@ -9,7 +9,10 @@ const JobSection = () => {
 
 
 
-<div className="jobs-container">
+<div className="jobs-section">
+
+  <div className='jobs-section-content'>
+
 
 
       <div className='jobs-header container'>
@@ -24,9 +27,9 @@ const JobSection = () => {
 
 
 
-        <div className="wrapper-content container">
+        <div className="jobs-section-flex container">
           <div className="jobs-left">
-            <img src={wrapper1} alt="nurse" loading="lazy" />
+            <img src={wrapper1} alt="worker" loading="lazy" />
           </div>
 
           <div className="jobs-right">
@@ -64,6 +67,7 @@ const JobSection = () => {
         </div>
 
 
+        </div>
 
 
       </div>

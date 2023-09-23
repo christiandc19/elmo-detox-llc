@@ -42,6 +42,7 @@ const Navbar = () => {
 
     return (
         <>
+
     <Topbar />
         <div className='navbar' name='top topbar'>
             <div className="navbar-container">

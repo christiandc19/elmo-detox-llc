@@ -24,12 +24,13 @@
     width: auto;
     padding: 20px;
     text-align: center;
-    margin: 2rem auto;
     font-family: 'Montserrat', sans-serif;
 }
 
-.contact2-header h1, .contact2-header p {
+.contact2-header p {
   font-family: 'Montserrat', sans-serif;
+  padding: .5rem 0;
+  text-align: justify;
 }
 
  .contact-form-content {
@@ -163,9 +164,6 @@ text-align: center;
 
 @media (max-width: 940px) {
 
-  .contact2-container {
-    padding: 30px 40px 40px 35px ;
-  }
   .contact2-container .content .right-side{
    width: 75%;
    margin-left: 55px;

@@ -41,12 +41,10 @@ const ContactForm = () => {
 <div className="contactform">
 
 
-<div className="contact2-header contact2-container">
+<div className="contact2-header container">
             <h1>DO YOU NEED URGENT HELP?</h1>
-            <p>Our Addiction and Recovery Support team is available to assist you.</p>
-        </div>
-
-
+            <p>Choosing to embark on the path of detoxification is a significant step toward reclaiming your life from substance abuse. Remember, you don't have to go through this journey alone. Seeking professional help and support from loved ones can make a world of difference. If you have any further questions or concerns, don't hesitate to reach out to our dedicated team of experts. Your journey to recovery is important, and we're here to help you every step of the way.</p>
+</div>
 
 
 <section className="container">
