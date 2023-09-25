@@ -70,6 +70,7 @@ const Navbar = () => {
                             <li> <NavLink onClick={toggleClass} activeclassname='is-active'  to={`/detox-heroin`}> Heroin Detox </NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeclassname='is-active'  to={`/detox-alcohol`}> Alcohol Detox </NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeclassname='is-active'  to={`/detox-cocaine`}> Cocaine Detox </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeclassname='is-active'  to={`/detox-adderall`}> Adderall Detox </NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeclassname='is-active'  to={`/detox-benzodiazepines`}> Benzodiazepines </NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeclassname='is-active'  to={`/detox-methamphetamine`}> Methamphetamine </NavLink> </li>
                             <li> <NavLink onClick={toggleClass} activeclassname='is-active'  to={`/detox-marijuana`}> Marijuana Detox </NavLink> </li>

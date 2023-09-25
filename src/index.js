@@ -35,6 +35,8 @@ import DetoxCocaine from './routes/DetoxCocaine';
 import DetoxBenzodiazepines from './routes/DetoxBenzodiazepines';
 import DetoxMethamphetamine  from './routes/DetoxMethamphetamine';
 import DetoxMarijuana  from './routes/DetoxMarijuana';
+import DetoxAdderall  from './routes/DetoxAdderall';
+
 
 
 
@@ -71,6 +73,7 @@ ReactDOM.render(
       <Route exact path='/detox-benzodiazepines' element={<DetoxBenzodiazepines />} />
       <Route exact path='/detox-Methamphetamine' element={<DetoxMethamphetamine />} />
       <Route exact path='/detox-Marijuana' element={<DetoxMarijuana />} />
+      <Route exact path='/detox-Adderall' element={<DetoxAdderall />} />
 
 
 
