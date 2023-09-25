@@ -9,17 +9,22 @@ const Section1 = () => {
 
     <div className='section1'>
         <div className='section1-header container'>
-                <h1>What We Do</h1>
-                <h2>Substance Abuse Detox and Addiction Treatment Above and Beyond the Norms</h2>              
+                <h1>Welcome to Elmo Detox RESIDENTIAL TREATMENT CENTER</h1>
+                <h2>Your Pathway to Recovery Starts Here</h2>              
                 <p>
-                When it comes to substance abuse detox and addiction treatment, there are several innovative and effective approaches that go above and beyond conventional methods. These approaches often incorporate a combination of evidence-based practices, holistic treatments, and personalized care to address the unique needs of individuals struggling with addiction. </p>
+                At Elmo Detox, we understand the immense courage it takes to embark on the journey towards sobriety. Our dedicated team of professionals is here to support you every step of the way. With compassion, expertise, and a holistic approach to detoxification, we aim to provide a safe and nurturing environment for individuals seeking to overcome substance abuse.</p>
         </div>  
 
         <div className="section1-content container">
           <div className='section1-left'>
-                <h1>Our Method</h1>
-                <p>Methods used by Elmo Detox are non-invasive, distinct, and successful in relieving acute symptoms that act as roadblocks to receiving the full therapy. Additionally, to get past more difficult progress barriers, these services are provided on a consistent and ongoing basis which is closely observed in coordination with our clinical team.<br /> <br />The physical, mental, and spiritual imbalances have been found to be restored by its healing methods. Our design of substance abuse treatment is custom-fit to every individual. Compared to the programs which are commonly used, we are a firm believer that we can reach the full potential of our well-being by healing the body, mind and spirit.
-                </p>
+                <h1>Why Choose Elmo Detox?</h1>
+                <ul>
+                  <li><b>Compassionate Care</b>: Our team of licensed and experienced professionals is committed to treating each individual with respect, dignity, and empathy.</li>
+                  <li><b>Evidence-Based Treatment</b>: We utilize the latest research-backed methods to ensure a safe and effective detoxification process.</li>
+                  <li><b>Customized Plans</b>: Recognizing that every person's journey to recovery is unique, we create personalized treatment plans tailored to your specific needs and circumstances.</li>
+                  <li><b>24/7 Support</b>: Our facility is staffed around the clock, ensuring you have access to care and support whenever you need it.</li>
+                  <li><b>Comfortable Environment: </b>: We provide a serene and comfortable setting designed to promote relaxation and healing during this critical phase of your recovery.</li>
+                </ul>
           </div>
 
           <div className='section1-right'>
@@ -27,6 +32,14 @@ const Section1 = () => {
           </div>
 
         </div>
+
+        {/* <div className='section1-header container'>
+                <h1>Take the First Step</h1>
+                <p>
+                We commend you for taking the first step towards a healthier, more fulfilling life. Whether you're seeking help for yourself or a loved one, Elmo Detox is here to guide you on the path to recovery. Contact us today to learn more about our programs or to schedule a confidential consultation.</p>
+        </div>  */}
+
+
     </div>
     </>
   )

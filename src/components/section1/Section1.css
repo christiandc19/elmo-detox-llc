@@ -18,7 +18,7 @@
   
 .section1-header {
     text-align: center;
-    padding: 1rem;
+    padding: 4rem 1rem 1rem 1rem;
 }
 
 .section1-header p {
@@ -42,13 +42,18 @@
     padding: 0 2rem;
     display: flex;
     justify-content: center;
-    padding: 4rem 0;
+    padding: 4rem 0 0 0;
 }
 
 .section1-left {
     width: 50%;
     margin: auto;
     padding: 1rem;
+}
+.section1-left ul li {
+    padding: .5rem 0;
+    font-size: 15px;
+    text-align: justify;
 }
 
 .section1-right {
@@ -73,7 +78,7 @@
 
 .section1 h1 {
     text-transform: uppercase;
-    color: #312f2f;
+    color: var(--primary-color);
     font-size: 1rem;
     letter-spacing: 5px; 
     padding: .5rem 0;
@@ -100,10 +105,6 @@
 
     .section1-right {
         width: 90%;
-    }
-
-    .section1 hr {
-        display: none;
     }
 
     .section1-header h2 {
