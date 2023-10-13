@@ -37,9 +37,6 @@ import DetoxMethamphetamine  from './routes/DetoxMethamphetamine';
 import DetoxMarijuana  from './routes/DetoxMarijuana';
 import DetoxAdderall  from './routes/DetoxAdderall';
 
-
-
-
 import Jobs from './routes/JOBS';
 import SA from './routes/SA';
 
